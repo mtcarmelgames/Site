@@ -5,3 +5,35 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* header section with mountains */
+.hero {
+  width: 100%;
+}
+
+.hero .mountains {
+  position: absolute;
+  left: 0;
+  width: 100%; /* stretch full width */
+  height: 100%; /* fill container height */
+  object-fit: cover; /* scales without distortion */
+  top: 0;
+}
+
+.hero .back {
+  z-index: 1;
+}
+
+.hero .front {
+  z-index: 3;
+  top: 150px;
+}
+
+.hero .title {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  z-index: 2;
+}
