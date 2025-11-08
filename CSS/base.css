@@ -1,5 +1,6 @@
 body {
-  background-color: #7a6a80;
+  background: #7a6a80; /* fallback for old browsers */
+  background: linear-gradient(180deg, #7a6a80 0%, #5c5467 500px);
   color: #ffffff;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -21,11 +22,11 @@ body {
 }
 
 .hero .back {
-  z-index: 1;
+  z-index: -3;
 }
 
 .hero .front {
-  z-index: 3;
+  z-index: -1;
   top: 150px;
 }
 
@@ -35,5 +36,10 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 1000px;
-  z-index: 2;
+  z-index: -2;
+}
+
+main {
+  margin-top: 450px;
+  padding: 20px;
 }
