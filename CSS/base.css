@@ -39,7 +39,7 @@ body {
   z-index: -2;
 }
 
-main {
+.main {
   margin-top: 450px;
   padding: 20px;
 }
