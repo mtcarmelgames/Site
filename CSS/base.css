@@ -7,6 +7,35 @@ body {
   padding: 0;
 }
 
+a {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5c5467;
+  text-decoration: underline;
+  position: relative;
+  top: 1px;
+  text-shadow: 0px 0px 1px white;
+}
+
+a:active {
+  color: #5c5467;
+  text-decoration: underline;
+  position: relative;
+  top: 2px;
+  text-shadow: 0px 0px 1px white;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
 /* header section with mountains */
 .hero {
   width: 100%;
@@ -15,9 +44,9 @@ body {
 .hero .mountains {
   position: absolute;
   left: 0;
-  width: 100%; /* stretch full width */
-  height: 100%; /* fill container height */
-  object-fit: cover; /* scales without distortion */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   top: 0;
 }
 
@@ -42,4 +71,59 @@ body {
 .main {
   margin-top: 450px;
   padding: 20px;
+}
+
+.main-nav {
+  position: absolute;
+  top: 175px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.main-nav li {
+  position: relative;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.main-nav a {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  color: #5c5467;
+}
+
+.main-nav li:hover {
+  position: relative;
+  top: 1px;
+}
+
+.main-nav li:hover a {
+  text-decoration: none;
+}
+
+.main-nav li:active {
+  position: relative;
+  top: 2px;
+}
+
+.main-nav li:active a {
+  text-decoration: none;
 }

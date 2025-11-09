@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mt. Carmel Games</title>
     <link rel="stylesheet" href="CSS/base.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $(function () {
+        $(".hero").load("/hero.html");
+      });
+    </script>
   </head>
-  <header class="hero">
-    <img src="Images/Background Mountains.png" class="mountains back" />
-    <img src="Images/Foreground Mountains.png" class="mountains front" />
-    <img src="Images/Mount Carmel Games.png" class="title" />
-  </header>
-  <main class="main">
-    <a href="/FinancialCalendar/privacy-policy.html"
-      >FinancialCalendar Privacy-Policy</a
-    >
-    <h1>Site Under Construction!</h1>
-  </main>
+  <body>
+    <section class="hero"></section>
+    <main class="main">
+      <a href="/FinancialCalendar/privacy-policy.html"
+        >FinancialCalendar Privacy-Policy</a
+      >
+      <h1>Site Under Construction!</h1>
+    </main>
+  </body>
 </html>
