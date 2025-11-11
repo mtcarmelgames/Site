@@ -12,8 +12,17 @@ main {
   font-family: Arial, sans-serif;
 }
 
+.main-wrapper {
+  position: relative;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  background: #5c5467;
+  /* background: #5c5467; */
   height: auto;
   min-height: 100%;
 }
