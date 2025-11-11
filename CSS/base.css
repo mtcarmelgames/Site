@@ -1,10 +1,21 @@
-body {
-  background: #7a6a80; /* fallback for old browsers */
-  background: linear-gradient(180deg, #7a6a80 0%, #5c5467 500px);
-  color: #ffffff;
-  font-family: Arial, sans-serif;
+html,
+body,
+section,
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #5c5467;
+  height: auto;
+  min-height: 100%;
 }
 
 a {
@@ -17,19 +28,17 @@ a {
 }
 
 a:hover {
-  color: #5c5467;
+  color: #7a6a80;
   text-decoration: underline;
   position: relative;
   top: 1px;
-  text-shadow: 0px 0px 1px white;
 }
 
 a:active {
-  color: #5c5467;
+  color: #7a6a80;
   text-decoration: underline;
   position: relative;
   top: 2px;
-  text-shadow: 0px 0px 1px white;
 }
 
 a:visited {
@@ -38,7 +47,17 @@ a:visited {
 
 /* header section with mountains */
 .hero {
+  position: absolute;
   width: 100%;
+}
+
+.hero .gradient {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -4;
+  background: linear-gradient(180deg, #7a6a80 0%, #5c5467 500%);
 }
 
 .hero .mountains {
@@ -47,16 +66,18 @@ a:visited {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  top: 0;
+  pointer-events: none;
 }
 
 .hero .back {
+  top: 100px;
   z-index: -3;
+  filter: blur(1px);
 }
 
 .hero .front {
-  z-index: -1;
-  top: 150px;
+  z-index: 0;
+  top: 250px;
 }
 
 .hero .title {
@@ -64,13 +85,22 @@ a:visited {
   top: 30px;
   left: 50%;
   transform: translateX(-50%);
-  width: 1000px;
+  width: calc(100% - 40px);
+  max-width: 1000px;
   z-index: -2;
+  pointer-events: none;
+}
+
+.main-wrapper {
+  margin-top: 550px;
+  padding: 20px;
+  z-index: 1;
+  background: #5c5467;
 }
 
 .main {
-  margin-top: 450px;
-  padding: 20px;
+  max-width: 1200px;
+  display: inline;
 }
 
 .main-nav {
@@ -81,7 +111,21 @@ a:visited {
   width: auto;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .main-nav {
+    flex-direction: column;
+  }
+}
+
+.hero .mountains,
+.hero .title,
+.main-nav {
+  will-change: transform;
 }
 
 .main-nav ul {
@@ -95,7 +139,8 @@ a:visited {
 .main-nav li {
   position: relative;
   display: flex;
-  width: 200px;
+  min-width: 200px;
+  width: auto;
   justify-content: center;
   align-items: center;
   background-color: white;

@@ -1,6 +1,28 @@
-<img src="/Images/Background Mountains.png" class="mountains back" />
-<img src="/Images/Foreground Mountains.png" class="mountains front" />
-<img src="/Images/Mount Carmel Games.png" class="title" />
+<script>
+  const backMountains = document.querySelector(".hero .back");
+  const frontMountains = document.querySelector(".hero .front");
+  const title = document.querySelector(".hero .title");
+  const nav = document.querySelector(".main-nav");
+
+  function updateParallax() {
+    const scrollY = window.scrollY || window.pageYOffset;
+
+    backMountains.style.transform = `translateY(${scrollY * 0.75}px)`;
+    frontMountains.style.transform = `translateY(${scrollY * 0.0}px)`;
+    title.style.transform = `translate(-50%, ${scrollY * 0.25}px)`;
+    nav.style.transform = `translate(-50%, ${scrollY * 0.25}px)`;
+  }
+
+  // Run on scroll and once on load
+  window.addEventListener("scroll", updateParallax);
+  updateParallax();
+</script>
+
+<div class="gradient" />
+<img src="/Images/Background Mountains.svg" class="mountains back" />
+<img src="/Images/Foreground Mountains.svg" class="mountains front" />
+<div class="gradient" />
+<img src="/Images/Mt Carmel Games.svg" class="title" />
 
 <nav class="main-nav">
   <ul>
