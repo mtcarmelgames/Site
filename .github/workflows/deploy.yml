@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -24,16 +24,19 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        working-directory: ./mt-carmel-games
 
       - name: Build site
         run: npm run build
+        working-directory: ./mt-carmel-games
 
       - name: Copy index.html -> 404.html for SPA routing
         run: cp dist/index.html dist/404.html
+        working-directory: ./mt-carmel-games
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./mt-carmel-games/dist
           publish_branch: gh-pages
