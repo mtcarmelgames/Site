@@ -1,0 +1,42 @@
+backend:
+  name: github
+  repo: mtcarmelgames/Site
+  branch: main
+
+media_folder: "public/images/posts"
+public_folder: "/images/posts"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "src/content/posts"
+    create: true
+
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+
+      - label: "Description"
+        name: "description"
+        widget: "text"
+
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        required: false
+
+      - label: "YouTube URL"
+        name: "youtube"
+        widget: "string"
+        required: false
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
