@@ -1,10 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
+import ReactGA from "react-ga4";
 import Hero from "./components/hero";
 import Games from "./components/games";
 import Apps from "./components/apps";
 import FCPP from "./components/apps/financial_calendar/privacy_policy";
 import "./css/base.css";
+
+ReactGA.initialize("G-M77JN2ZYMH");
 
 function Index() {
   return (

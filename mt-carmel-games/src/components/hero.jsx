@@ -11,7 +11,6 @@ export default function Hero() {
     function updateParallax() {
       const scrollY = window.scrollY || window.pageYOffset;
       backMountains.style.transform = `translateY(${scrollY * 0.75}px)`;
-      title.style.transform = `translate(-50%, ${scrollY * 0.0}px)`;
       nav.style.transform = `translate(-50%, ${scrollY * 0.0}px)`;
     }
 
@@ -26,9 +25,9 @@ export default function Hero() {
       <img src="/images/background_mountains.svg" className="mountains back" />
       <div className="gradient" />
       <img src="/images/foreground_mountains.svg" className="mountains front" />
-      <img src="/images/logo.svg" className="title" />
 
       <nav className="main-nav">
+        <img src="/images/logo.svg" className="title" />
         <ul>
           <li>
             <Link to="/">Home</Link>
