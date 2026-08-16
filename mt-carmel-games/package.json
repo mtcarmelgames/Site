@@ -11,6 +11,7 @@
     "deploy": "vite build && copy dist\\index.html dist\\404.html && gh-pages -d dist"
   },
   "dependencies": {
+    "@storyblok/react": "^7.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-ga4": "^2.1.0",

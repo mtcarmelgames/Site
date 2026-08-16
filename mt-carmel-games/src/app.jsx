@@ -1,19 +1,59 @@
 import { Routes, Route } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ReactGA from "react-ga4";
 import Hero from "./components/hero";
 import Games from "./components/games";
 import Apps from "./components/apps";
 import FCPP from "./components/apps/financial_calendar/privacy_policy";
 import "./css/base.css";
+import { storyblokInit, apiPlugin, StoryblokComponent, getStoryblokApi } from "@storyblok/react";
+import Page from "./storyblok/Page";
+import Teaser from "./storyblok/Teaser";
+import Grid from "./storyblok/Grid";
+import Feature from "./storyblok/Feature";
+import Video from "./storyblok/Video";
 
 ReactGA.initialize("G-M77JN2ZYMH");
 
+storyblokInit({
+  accessToken: import.meta.env.VITE_STORYBLOK_DELIVERY_API_TOKEN,
+  use: [apiPlugin],
+  components: {
+    page: Page,
+    teaser: Teaser,
+    grid: Grid,
+    feature: Feature,
+    video: Video,
+  },
+  apiOptions: {
+    region: "en", // Choose the correct region from your Space.
+  },
+});
+
 function Index() {
+  const [stories, setStories] = useState([]);
+
+  useEffect(() => {
+    async function LoadStories() {
+      const storyblokApi = getStoryblokApi();
+
+      const response = await storyblokApi.get("cdn/stories", {
+        version: "published",
+        per_page: 5,
+        sort_by: "first_published_at:desc",
+      });
+
+      setStories(response.data.stories);
+    }
+
+    LoadStories();
+  }, []);
+
   return (
     <main className="main">
-      <h1>Welcome to Mt. Carmel Games</h1>
-      <p>Indie games and apps coming soon.</p>
+      {stories.map((story) => (
+        <StoryblokComponent blok={story.content} story={story} key={story.uuid} />
+      ))}
     </main>
   );
 }
