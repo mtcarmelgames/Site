@@ -191,6 +191,14 @@ a:visited {
   text-decoration: none;
 }
 
+section {
+  display: block;
+}
+
+.center {
+  text-align: center;
+}
+
 .video {
   width: 100%;
   max-width: 800px;

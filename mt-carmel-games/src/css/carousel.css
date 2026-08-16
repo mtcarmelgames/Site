@@ -1,0 +1,27 @@
+.media-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.media-carousel-content {
+  width: min(900px, 80vw);
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 5px solid #333333;
+}
+
+.media-carousel-content img,
+.media-carousel-content video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.media-carousel button {
+  font-size: 2rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
