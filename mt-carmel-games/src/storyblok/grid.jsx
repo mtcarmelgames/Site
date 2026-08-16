@@ -2,7 +2,7 @@ import { StoryblokComponent } from "@storyblok/react";
 
 function Grid({ blok }) {
   return (
-    <div className="grid">
+    <div className="story-grid">
       {blok.columns?.map((column) => (
         <StoryblokComponent blok={column} key={column._uid} />
       ))}
