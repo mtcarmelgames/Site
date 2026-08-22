@@ -39,6 +39,9 @@ export default function Hero() {
             <Link to="/apps">Apps</Link>
           </li>
           <li>
+            <Link to="/team">Team</Link>
+          </li>
+          <li>
             <Link to="/contact">Contact</Link>
           </li>
         </ul>

@@ -1,9 +1,5 @@
 function Teaser({ blok }) {
-  return (
-    <section>
-      <h1>{blok.headline}</h1>
-    </section>
-  );
+  return <h1 className="center">{blok.headline}</h1>;
 }
 
 export default Teaser;

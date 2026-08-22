@@ -4,6 +4,8 @@ import ReactGA from "react-ga4";
 import Hero from "./components/hero";
 import Games from "./components/games";
 import Apps from "./components/apps";
+import Team from "./components/team";
+import Contact from "./components/contact";
 import FCPP from "./components/apps/financial_calendar/privacy_policy";
 import "./css/base.css";
 import { storyblokInit, apiPlugin, StoryblokComponent, getStoryblokApi } from "@storyblok/react";
@@ -69,6 +71,8 @@ function App() {
             <Route path="/" element={<Index />} />
             <Route path="/games" element={<Games />} />
             <Route path="/apps" element={<Apps />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/apps/financial_calendar/privacy_policy" element={<FCPP />} />
             {/* <Route path="/contact" element={<ContactPage />} /> */}
           </Routes>
