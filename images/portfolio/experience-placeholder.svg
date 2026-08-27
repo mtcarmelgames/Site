@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Experience coming soon</title>
+  <desc id="description">A placeholder for future portfolio experience content.</desc>
+  <rect width="1600" height="900" fill="#4b4454" />
+  <path d="M0 690 330 430 610 660 900 350 1230 650 1600 390V900H0Z" fill="#655a6d" />
+  <text x="800" y="390" fill="#ffffff" font-family="Arial, sans-serif" font-size="72" font-weight="700" text-anchor="middle">EXPERIENCE</text>
+  <text x="800" y="485" fill="#ded8e1" font-family="Arial, sans-serif" font-size="38" text-anchor="middle">Portfolio content coming soon</text>
+</svg>
