@@ -1,0 +1,195 @@
+.hero .mountains,
+.hero .title,
+.main-nav {
+  will-change: transform;
+}
+
+.hero {
+  position: absolute;
+  width: 100%;
+}
+
+.hero .radial-gradient {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -4;
+  background: radial-gradient(circle, #d2bfda, #7a6a80);
+}
+
+.hero .mountains {
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.hero .back {
+  top: 100px;
+  z-index: -3;
+  filter: blur(1px);
+}
+
+.hero .mountains.main {
+  position: absolute;
+  z-index: -3;
+  top: 440px;
+  transform: translate(-50%, -100%) scale(1.5);
+  left: 50%;
+}
+
+.hero .mountains.front {
+  position: absolute;
+  left: 0;
+  z-index: -2;
+  top: 455px;
+  transform: translateY(-100%);
+}
+
+.hero .hills {
+  position: absolute;
+  left: 0;
+  z-index: -2;
+  top: 455px;
+  transform: translateY(-100%);
+  background-repeat: repeat-x;
+}
+
+.hero .soft-gradient {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.356), #7a6a807c);
+}
+
+.hero .trees {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  top: 455px;
+  transform: translateY(-100%);
+  background-repeat: repeat-x;
+}
+
+.hero .title {
+  margin-bottom: 30px;
+  width: calc(100% - 40px);
+  max-width: 1000px;
+  z-index: -2;
+  pointer-events: none;
+}
+
+.main-nav {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 40px);
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .main-nav {
+    flex-direction: column;
+  }
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.main-nav li {
+  position: relative;
+  display: flex;
+  flex: 1 1 175px;
+  max-width: 175px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+@media (max-width: 600px) {
+  .main-nav li {
+    flex: 1 1 350px;
+  }
+}
+
+.main-nav a {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  text-align: center;
+  width: 100%;
+  color: #5c5467;
+}
+
+.main-nav li:hover {
+  position: relative;
+  top: 1px;
+}
+
+.main-nav li:hover a {
+  text-decoration: none;
+}
+
+.main-nav li:active {
+  position: relative;
+  top: 2px;
+}
+
+.main-nav li:active a {
+  text-decoration: none;
+}
+
+.full-menu {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.mobile-menu {
+  display: none !important;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.mobile-menu li {
+  position: relative;
+  display: flex;
+  flex: 1 1 75px;
+  max-width: 75px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+@media (max-width: 600px) {
+  .mobile-menu {
+    display: flex !important;
+    padding: 10px;
+  }
+
+  .full-menu {
+    display: none !important;
+  }
+
+  .hero .title {
+    background-color: #5c5467;
+  }
+}

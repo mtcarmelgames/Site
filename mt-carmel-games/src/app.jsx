@@ -1,19 +1,21 @@
 import { Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ReactGA from "react-ga4";
+import "./css/base.css";
 import Hero from "./components/hero";
 import Games from "./components/games";
 import Apps from "./components/apps";
 import Team from "./components/team";
 import Contact from "./components/contact";
+import JefferyBunnPortfolio from "./components/portfolio/jeffery_bunn";
 import FCPP from "./components/apps/financial_calendar/privacy_policy";
-import "./css/base.css";
 import { storyblokInit, apiPlugin, StoryblokComponent, getStoryblokApi } from "@storyblok/react";
 import Page from "./storyblok/Page";
 import Teaser from "./storyblok/Teaser";
 import Grid from "./storyblok/Grid";
 import Feature from "./storyblok/Feature";
 import Video from "./storyblok/Video";
+import JoshuaNelsonPortfolio from "./components/portfolio/joshua_nelson";
 
 ReactGA.initialize("G-M77JN2ZYMH");
 
@@ -73,6 +75,8 @@ function App() {
             <Route path="/apps" element={<Apps />} />
             <Route path="/team" element={<Team />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/portfolio/jeffery_bunn" element={<JefferyBunnPortfolio />} />
+            <Route path="/portfolio/joshua_nelson" element={<JoshuaNelsonPortfolio />} />
             <Route path="/apps/financial_calendar/privacy_policy" element={<FCPP />} />
             {/* <Route path="/contact" element={<ContactPage />} /> */}
           </Routes>

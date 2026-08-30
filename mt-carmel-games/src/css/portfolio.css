@@ -1,0 +1,76 @@
+.portfolio-profile {
+  width: 100%;
+  padding: 10px 0 50px;
+}
+
+.portfolio-profile__card {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(24px, 5vw, 56px);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-profile__photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  box-sizing: border-box;
+  border: 5px solid #ffffff;
+  border-radius: 12px;
+}
+
+.portfolio-profile__name {
+  margin: 0 0 6px;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.portfolio-profile__role {
+  margin: 0 0 18px;
+  color: #ded8e1;
+  font-size: 1.05rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-profile__bio {
+  max-width: 680px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.portfolio-profile__bio p {
+  margin: 0 0 16px;
+}
+
+.portfolio-profile__bio p:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-profile__experience {
+  margin-top: 56px;
+}
+
+.portfolio-profile__experience h2 {
+  margin: 0 0 24px;
+  text-align: center;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+@media (max-width: 700px) {
+  .portfolio-profile__card {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-profile__photo {
+    width: min(100%, 320px);
+    margin: 0 auto;
+  }
+
+  .portfolio-profile__details {
+    text-align: center;
+  }
+}

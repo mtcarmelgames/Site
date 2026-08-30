@@ -17,11 +17,11 @@ export default function MediaCarousel({ media }) {
 
   return (
     <div className="media-carousel">
-      <button onClick={Previous}>‹</button>
+      <button onClick={Previous} aria-label="Previous item">‹</button>
 
-      <div className="media-carousel-content">{item.type === "image" ? <img src={item.src} alt="" /> : <video src={item.src} controls playsInline />}</div>
+      <div className="media-carousel-content">{item.type === "image" ? <img src={item.src} alt={item.alt ?? ""} /> : <video src={item.src} controls playsInline />}</div>
 
-      <button onClick={Next}>›</button>
+      <button onClick={Next} aria-label="Next item">›</button>
     </div>
   );
 }
