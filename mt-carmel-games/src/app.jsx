@@ -16,6 +16,9 @@ import Grid from "./storyblok/Grid";
 import Feature from "./storyblok/Feature";
 import Video from "./storyblok/Video";
 import JoshuaNelsonPortfolio from "./components/portfolio/joshua_nelson";
+import BiteScribe from "./components/apps/bitescribe/bitescribe";
+import BiteScribe_PrivacyPolicy from "./components/apps/bitescribe/privacy_policy";
+import BiteScribe_Terms from "./components/apps/bitescribe/terms";
 
 ReactGA.initialize("G-M77JN2ZYMH");
 
@@ -78,6 +81,9 @@ function App() {
             <Route path="/portfolio/jeffery_bunn" element={<JefferyBunnPortfolio />} />
             <Route path="/portfolio/joshua_nelson" element={<JoshuaNelsonPortfolio />} />
             <Route path="/apps/financial_calendar/privacy_policy" element={<FCPP />} />
+            <Route path="/apps/bitescribe" element={<BiteScribe />} />
+            <Route path="/apps/bitescribe/privacy_policy" element={<BiteScribe_PrivacyPolicy />} />
+            <Route path="/apps/bitescribe/terms" element={<BiteScribe_Terms />} />
             {/* <Route path="/contact" element={<ContactPage />} /> */}
           </Routes>
         </main>
