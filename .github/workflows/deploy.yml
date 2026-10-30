@@ -34,6 +34,12 @@ jobs:
         run: cp dist/index.html dist/404.html
         working-directory: ./mt-carmel-games
 
+      - name: Publish BiteScribe as a real page
+        run: |
+          mkdir -p dist/apps/bitescribe
+          cp dist/index.html dist/apps/bitescribe/index.html
+        working-directory: ./mt-carmel-games
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
