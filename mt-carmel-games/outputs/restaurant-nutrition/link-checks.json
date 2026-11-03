@@ -1,0 +1,1877 @@
+[
+  {
+    "i": 0,
+    "status": 403
+  },
+  {
+    "i": 3,
+    "status": 200,
+    "url": "https://awrestaurants.com/nutrition/",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 4,
+    "status": 200,
+    "url": "https://www.abuelos.com/nutritional-information/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 6,
+    "status": 200,
+    "url": "https://www.anotherbrokenegg.com/faqs",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 7,
+    "status": 200,
+    "url": "https://acfp.com/menu/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 8,
+    "status": 403
+  },
+  {
+    "i": 9,
+    "status": 200,
+    "url": "https://www.arbys.com/nutrition/",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 12,
+    "status": 200,
+    "url": "https://atlantabread.com/wp-content/uploads/2023/03/2022-Nutritionals.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 13,
+    "status": 200,
+    "url": "https://www.aubonpain.com/nutrition/",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 14,
+    "status": 200,
+    "url": "https://www.auntieannes.com/contact-us/common-questions",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 17,
+    "status": 200,
+    "url": "https://www.bahamabreeze.com/nutrition",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 18,
+    "status": 200,
+    "url": "https://www.bajafresh.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 20,
+    "status": 403
+  },
+  {
+    "i": 22,
+    "status": 200,
+    "url": "https://www.baskinrobbins.com/content/dam/br/pdf/BRNutrition.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 23,
+    "status": 403
+  },
+  {
+    "i": 24,
+    "status": 200,
+    "url": "https://www.benihana.com/benihana-nutritional-information/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 26,
+    "status": "unverified",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issue"
+  },
+  {
+    "i": 27,
+    "status": 403
+  },
+  {
+    "i": 28,
+    "status": 200,
+    "url": "https://www.bigboy.com/menu",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 29,
+    "status": 200,
+    "url": "https://www.biggby.com/wp-content/uploads/2026/02/BIGGBY_nutrition_February.26.26.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 30,
+    "status": 403
+  },
+  {
+    "i": 31,
+    "status": 200,
+    "url": "https://biscuitbelly.com/wp-content/uploads/2023/12/Allergen-Menu.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 32,
+    "status": 200,
+    "url": "https://www.bjsrestaurants.com/marketing-pages/allergen-and-nutritional-guides",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 33,
+    "status": 200,
+    "url": "https://koala-configurations.s3.us-east-1.amazonaws.com/public/assets/Nutrition-10-bd685b48-e918-49bc-a190-05723bf04b3f.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 34,
+    "status": 403
+  },
+  {
+    "i": 35,
+    "status": 403
+  },
+  {
+    "i": 36,
+    "status": 200,
+    "url": "https://www.blazepizza.com/nutritional",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 37,
+    "status": 200,
+    "url": "https://www.blimpie.com/assets/pdf/BlimpieNutritionalInfo.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 40,
+    "status": 200,
+    "url": "https://www.bobevans.com/nutrition",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 41,
+    "status": 200,
+    "url": "https://bojangles.pleinaircdn.com/menu/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 43,
+    "status": 200,
+    "url": "https://www.bonefishgrill.com/nutrition-information",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 46,
+    "status": 200,
+    "url": "https://www.brueggers.com/wp-content/uploads/2026/02/Brueggers-Bagels-Nutritonal-Guide-2026.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 47,
+    "status": 200,
+    "url": "https://brusters.com/flavor-nutrition/",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 48,
+    "status": 200,
+    "url": "https://www.bubbagump.com/menu/food-bgdb/",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 49,
+    "status": 200,
+    "url": "https://www.bubbakoos.com/menu/the-standard-burrito",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 50,
+    "status": 200,
+    "url": "https://dineatbuca.com/nutritional-menus/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 51,
+    "status": 200,
+    "url": "https://www.buffalowildwings.com/nutrition/",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 52,
+    "status": 200,
+    "url": "https://www.burger21.com/wp-content/uploads/2022/10/NutritionalGuide_10.2022.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 53,
+    "status": 403
+  },
+  {
+    "i": 54,
+    "status": 403
+  },
+  {
+    "i": 56,
+    "status": 403
+  },
+  {
+    "i": 57,
+    "status": 302
+  },
+  {
+    "i": 59,
+    "status": 200,
+    "url": "https://media-platform.cdn4dd.com/media/online_ordering_asset/processed/03f4d326-d927-4bea-921e-1375151c320e.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 60,
+    "status": 200,
+    "url": "https://www.captainds.com/wp-content/uploads/2026/03/Captain-Ds-Nutrition-and-Allergen-Chart_2026-03-27.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 61,
+    "status": 200,
+    "url": "https://order.cariboucoffee.com/",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 62,
+    "status": 200,
+    "url": "https://www.carlsjr.com/nutritional_info",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 63,
+    "status": 200,
+    "url": "https://www.carrabbas.com/nutrition",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 64,
+    "status": 200,
+    "url": "https://www.carvel.com/faqs",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 67,
+    "status": 200,
+    "url": "https://www.charleys.com/nutrition-info/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 68,
+    "status": 403
+  },
+  {
+    "i": 69,
+    "status": 200,
+    "url": "https://media.cheddars.com/images/site/pdf/Cheddars_Nutrition_Guide.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 70,
+    "status": 200,
+    "url": "https://www.thecheesecakefactory.com/media/631/download?inline=",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 71,
+    "status": 200,
+    "url": "https://www.chevys.com/wp-content/uploads/2020/10/CHE_MISC_NUTRITIONGUIDE_0518_v10_compressed.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 72,
+    "status": 200,
+    "url": "https://www.chickensaladchick.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 73,
+    "status": 200,
+    "url": "https://www.chick-fil-a.com/Nutrition-Allergens",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 74,
+    "status": 200,
+    "url": "https://www.chilis.com/nutrition",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 75,
+    "status": 200,
+    "url": "https://www.chipotle.com/content/dam/chipotle/menu/nutrition/US-Nutrition-Facts-Paper-Menu-3-2025.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 76,
+    "status": 200,
+    "url": "https://www.chronictacos.com/nutrition",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 78,
+    "status": 403
+  },
+  {
+    "i": 79,
+    "status": 200,
+    "url": "https://www.churchs.com/wp-content/uploads/2022/08/NutritionalFactSheet_ChurchsChicken_080922.pdf",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 80,
+    "status": 200,
+    "url": "https://www.chuys.com/faqs",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 81,
+    "status": 403
+  },
+  {
+    "i": 82,
+    "status": 200,
+    "url": "https://assets.ctfassets.net/zqt8tllj2cy0/6MwLBDdC4Ibv4rJ6DVu5bv/6e046236fbbed2f532da5c63eadcfcca/Nutritional_Guide_DOMESTIC_04.2025.pdf?d=20250630T084309Z&v=1",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 83,
+    "status": 403
+  },
+  {
+    "i": 84,
+    "status": 200,
+    "url": "https://www.claimjumper.com/files/nutrition-guide-pdf.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 85,
+    "status": 200,
+    "url": "https://www.cleanjuice.com/nutrition-facts/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 86,
+    "status": 200,
+    "url": "https://coffeetime.com/menu/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 87,
+    "status": 200,
+    "url": "https://www.coldstonecreamery.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 88,
+    "status": 404
+  },
+  {
+    "i": 90,
+    "status": 200,
+    "url": "https://media-cdn.getbento.com/accounts/2b3fa09317b4f49d36c34188bda32d3f/media/2QL5iPWKTzSlBFP7QaZa_Allergen%20and%20Nutritionals%20April%202021%20%282%29.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 91,
+    "status": 403
+  },
+  {
+    "i": 93,
+    "status": 200,
+    "url": "https://www.cousinssubs.com/api/media/file/Nutritional%20Info%20-%2010-16-26.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 94,
+    "status": 429
+  },
+  {
+    "i": 96,
+    "status": 200,
+    "url": "https://culvers.com/nutrition-and-allergen-guide",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 98,
+    "status": 403
+  },
+  {
+    "i": 99,
+    "status": 200,
+    "url": "https://www.daveandbusters.com/content/dam/dnb/menu-update/menu-pdf/DB_Nutritional_Menu_Spring_3_2_2026.pdf.coredownload.inline.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 100,
+    "status": 406
+  },
+  {
+    "i": 102,
+    "status": 200,
+    "url": "https://www.deltaco.com/files/pdf/2026/nutritional-02-2026.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 103,
+    "status": 200,
+    "url": "https://d3ciwvs59ifrt8.cloudfront.net/d8f2c56f-c43b-41cc-b40e-7913c8fc471f/7e41fd99-b424-4890-8308-fcbd98f80aa0.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 104,
+    "status": 403
+  },
+  {
+    "i": 105,
+    "status": 200,
+    "url": "https://www.dickeys.com/company/nutritional",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 106,
+    "status": 406
+  },
+  {
+    "i": 108,
+    "status": 200,
+    "url": "https://www.dominos.com/en/pages/content/nutritional/nutrition",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 109,
+    "status": 200,
+    "url": "https://files.donatos.com/2022/04/18/DonatosNutrition-4-18-2022.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 112,
+    "status": 200,
+    "url": "https://www.duckdonuts.com/documents/Duck-Donuts-Nutrition-Data-August-31-2023.pdf",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 113,
+    "status": 200,
+    "url": "https://www.dunkindonuts.com/nutrition/",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 114,
+    "status": 200,
+    "url": "https://dunnbrothers.com/menu/nutrition-portal/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 115,
+    "status": 200,
+    "url": "https://files.dutchbros.com/website/menu/nutritional-guide.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 116,
+    "status": 200,
+    "url": "https://eastcoastwings.com/wp-content/uploads/2026/08/2026-ECWG-Nutritional-Allergen-Guide.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 117,
+    "status": 200,
+    "url": "https://media.eddiev.com/images/site/ext/menus/nutrition/nutrition-guide-dinner-locations.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 118,
+    "status": 200,
+    "url": "https://eggsupgrill.com/nutrition/latest/Nutrition-Guide.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 119,
+    "status": 200,
+    "url": "https://www.einsteinbros.com/contact/faq/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 120,
+    "status": 200,
+    "url": "https://www.elpolloloco.com/content/pdfs/epl_web_nutrition_guide_mod_2_2026_hr-2C.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 122,
+    "status": 200,
+    "url": "https://www.eltorito.com/wp-content/uploads/2020/08/el-torito-nutrition-facts.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 124,
+    "status": 200,
+    "url": "https://files.elfsightcdn.com/95d9d512-a886-4db3-81c5-431ed5c5dd9d/4ccb34c4-016d-4687-a9c7-d0db28b6f1e1.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 125,
+    "status": 200,
+    "url": "https://www.erbertandgerberts.com/wp-content/uploads/EG_Nutrition_Web.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 126,
+    "status": 200,
+    "url": "https://www.famousdaves.com/NutritionInfo",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 127,
+    "status": 200,
+    "url": "https://fatburger.com/wp-content/uploads/2022/12/Nutrition.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 128,
+    "status": 403
+  },
+  {
+    "i": 131,
+    "status": 200,
+    "url": "https://firstwatch.com/nutrition-and-allergens",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 132,
+    "status": 403
+  },
+  {
+    "i": 133,
+    "status": 200,
+    "url": "https://www.flemingssteakhouse.com/promotions/nutrition",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 136,
+    "status": 200,
+    "url": "https://www.freddys.com/nutrition-and-allergens",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 137,
+    "status": 200,
+    "url": "https://friendlysrestaurants.com/nutrition-information/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 139,
+    "status": 200,
+    "url": "https://frischsnwo.com/wp-content/uploads/2021/08/Frischs-Big-Boy-NW-Ohio-Nutrition-Values-8_2021.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 140,
+    "status": 200,
+    "url": "https://fuddruckers.guestresponse.com/contact/our-food-and-nutrition",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 141,
+    "status": 200,
+    "url": "https://www.fuzzystacoshop.com/nutrition",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 143,
+    "status": 200,
+    "url": "https://mrgattispizza.com/wp-content/uploads/2018/05/Nutritionals051518.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 144,
+    "status": 200,
+    "url": "https://assets.genghisgrill.com/menu/GGV2.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 145,
+    "status": 200,
+    "url": "https://giordanos.com/wp-content/uploads/Giordanos-Nutritionals.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 146,
+    "status": 200,
+    "url": "https://shop.godfathers.com/nutritional-information/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 147,
+    "status": 200,
+    "url": "https://www.goldstarchili.com/menu/3-way",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 148,
+    "status": 403
+  },
+  {
+    "i": 149,
+    "status": 403
+  },
+  {
+    "i": 150,
+    "status": 403
+  },
+  {
+    "i": 151,
+    "status": 200,
+    "url": "https://www.graeters.com/pages/nutritional-information",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 154,
+    "status": 403
+  },
+  {
+    "i": 155,
+    "status": 200,
+    "url": "https://www.greatamericancookies.com/wp-content/uploads/sites/2/2023/02/GAC_Nutrition-Calories_2023-compressed.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 156,
+    "status": 200,
+    "url": "https://greatharvesttemecula.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 157,
+    "status": 403
+  },
+  {
+    "i": 159,
+    "status": 200,
+    "url": "https://www.guzmanygomez.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 160,
+    "status": 200,
+    "url": "https://www.gyu-kaku.com/wp-content/uploads/2022/02/guide_nutrition1910.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 161,
+    "status": 200,
+    "url": "https://www.habitburger.com/nutritional-information/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 164,
+    "status": 200,
+    "url": "https://www.hardees.com/nutritional-info",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 167,
+    "status": 200,
+    "url": "https://www.hooters.com/nutritional-information",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 168,
+    "status": 200,
+    "url": "https://www.hopdoddy.com/nutritionals",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 169,
+    "status": 200,
+    "url": "https://hotdogonastick.com/wp-content/uploads/2018/05/HDOS_Nutritionals_052918.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 171,
+    "status": 200,
+    "url": "https://a.storyblok.com/f/140760/x/3d26059f12/160108-hh-nutritional-guide-august-2025-final.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 172,
+    "status": 200,
+    "url": "https://hueymagoos.com/nutritional-allergen-information/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 173,
+    "status": 200,
+    "url": "https://www.huhot.com/wp-content/uploads/allergy-nutrition-chart.11x17.rev_.07.15.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 174,
+    "status": 200,
+    "url": "https://thehumanbean.com/blogs/drink-menu/hot-chocolate",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 175,
+    "status": 403
+  },
+  {
+    "i": 178,
+    "status": 403
+  },
+  {
+    "i": 180,
+    "status": 200,
+    "url": "https://www.in-n-out.com/menu/nutrition-info",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 181,
+    "status": "unverified",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired ("
+  },
+  {
+    "i": 182,
+    "status": "unverified",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certif"
+  },
+  {
+    "i": 183,
+    "status": 200,
+    "url": "https://assets.ctfassets.net/zqt8tllj2cy0/1akQOwShkC1rwJIBneN1TK/5dc0751912d3277ceac3b78d39a6279a/Jamba-Nutrition-Guide.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 185,
+    "status": 403
+  },
+  {
+    "i": 186,
+    "status": 200,
+    "url": "https://jenis.com/pages/ingredients",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 187,
+    "status": 403
+  },
+  {
+    "i": 188,
+    "status": 200,
+    "url": "https://www.jetspizza.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 189,
+    "status": 200,
+    "url": "https://www.jimnnicks.com/assets/Nutritional-Guide-M12.6-Jan-22-2019.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 190,
+    "status": 200,
+    "url": "https://resources.jimmyjohns.com/downloadable-files/JimmyJohns_NutritionGuide_072219.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 191,
+    "status": 200,
+    "url": "https://www.jimmysegg.com/wp-content/uploads/2025/03/W_2025-02_JE_Menu_Update_-_WestTX.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 192,
+    "status": 200,
+    "url": "https://www.joescrabshack.com/menu/menu-csre/",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 195,
+    "status": 403
+  },
+  {
+    "i": 196,
+    "status": 200,
+    "url": "https://grcloud.com/apps/kilwins_store/pdf/nutritional_info.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 198,
+    "status": 200,
+    "url": "https://konagrill.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 199,
+    "status": 200,
+    "url": "https://www.krispykreme.com/About/Nutritional-Info",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 200,
+    "status": 200,
+    "url": "https://www.krystal.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 201,
+    "status": 200,
+    "url": "https://www.hawaiianbarbecue.com/food/bbq-chicken",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 203,
+    "status": 403
+  },
+  {
+    "i": 205,
+    "status": 200,
+    "url": "https://www.larosas.com/pdf/NutritionFacts.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 206,
+    "status": 200,
+    "url": "https://lepeep.com/wp-content/uploads/2026/04/CDA-Gluten-Free-Menu-4-2025-3.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 207,
+    "status": 200,
+    "url": "https://ledopizza.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 208,
+    "status": 200,
+    "url": "https://www.leeannchin.com/allergen-information",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 209,
+    "status": 200,
+    "url": "https://leesfamousrecipe.com/nutrition-and-allergen/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 211,
+    "status": 200,
+    "url": "https://www.lennys.com/wp-content/uploads/2022/05/Lennys-2018-Nutritional-Info.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 212,
+    "status": 200,
+    "url": "https://littlecaesars.com/static/usnutritionguide.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 213,
+    "status": 200,
+    "url": "https://logansroadhouse.com/nutrition-allergen-information/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 214,
+    "status": 200,
+    "url": "https://storyblok.pleinaircdn.com/f/261627/x/33919be238/nutrition-6-20-24.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 215,
+    "status": 200,
+    "url": "https://media.longhornsteakhouse.com/en_us/pdf/longhorn_steakhouse_nutrition.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 216,
+    "status": 200,
+    "url": "https://www.loumalnatis.com/nutritional-information/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 218,
+    "status": 200,
+    "url": "https://www.maggianos.com/menus",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 219,
+    "status": 200,
+    "url": "https://www.marbleslab.com/wp-content/uploads/2023/02/ICE-CREAM-Nutrition-Allergens-2-8-23.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 220,
+    "status": 200,
+    "url": "https://assets.ctfassets.net/3dar4x4x74wk/eo5pk1hlY1laRbUdaUlx2/04f70c6f45b9e3ed3b78403397bf1d37/ME___Nutrition_Menu.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 221,
+    "status": 404
+  },
+  {
+    "i": 222,
+    "status": 200,
+    "url": "https://www.manhattanbagel.com/wp-content/uploads/2022/05/MCB-Nutrition-Guide-Master-1.26.23.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 223,
+    "status": 200,
+    "url": "https://static1.squarespace.com/static/6489967520aa207907d79f3f/t/68bf07a053cff75b71b2d36c/1757349792086/8.8.25%2BCompany%2BWide%2BNutrition%2Band%2BAllergen%2Binformation.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 224,
+    "status": 403
+  },
+  {
+    "i": 226,
+    "status": 200,
+    "url": "https://www.mastrosrestaurants.com/event/allergen-page/",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 227,
+    "status": 200,
+    "url": "https://mauiwowisplitcdn.blob.core.windows.net/domain/Users/Documents/Default/Nutritional.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 228,
+    "status": 200,
+    "url": "https://www.mcalistersdeli.com/nutrition",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 230,
+    "status": 403
+  },
+  {
+    "i": 232,
+    "status": 200,
+    "url": "https://www.menchies.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 233,
+    "status": 200,
+    "url": "https://millersalehouse.com/wp-content/uploads/2026/01/MAH-Nutrition-Guide-011926.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 234,
+    "status": 200,
+    "url": "https://mission-bbq.com/wp-content/uploads/MISSION-BBQ-Nutritional-Info.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 235,
+    "status": 403
+  },
+  {
+    "i": 236,
+    "status": 200,
+    "url": "https://assets.ctfassets.net/zqt8tllj2cy0/229Bgcvw5c0RwcUkhyghXG/d3722a14b4b1dd925316a8936200f5bd/MOES_1906368_Nutrition_Chart_2026_R4.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 237,
+    "status": 200,
+    "url": "https://www.monicals.com/monicals-nutritional-calculator/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 238,
+    "status": 200,
+    "url": "https://www.mooyah.com/menu",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 240,
+    "status": 403
+  },
+  {
+    "i": 243,
+    "status": 200,
+    "url": "https://nativegrillandwings.com/wp-content/uploads/sites/5/2023/12/NGW_Nutritional-Information_12.8.23.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 246,
+    "status": 200,
+    "url": "https://www.noahs.com/contact/faq/nutritional-info",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 247,
+    "status": 200,
+    "url": "https://www.noodles.com/eat-well",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 248,
+    "status": 200,
+    "url": "https://www.nothingbundtcakes.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 249,
+    "status": 200,
+    "url": "https://order.oberweis.com/pages/nutritional-info",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 251,
+    "status": 404
+  },
+  {
+    "i": 253,
+    "status": 200,
+    "url": "https://www.olivegarden.com/nutrition",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 254,
+    "status": 200,
+    "url": "https://www.ontheborder.com/app/uploads/2024/08/OTB-NUTRITIONAL-ALLERGEN_INFO_0224v2new.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 255,
+    "status": 200,
+    "url": "https://www.orangeleafyogurt.com/files/OrangeLeaf_NutritionalChart_2026.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 256,
+    "status": 200,
+    "url": "https://ophdfw.com/nutrition-facts/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 257,
+    "status": 200,
+    "url": "https://www.outback.com/nutrition/smart-dining",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 258,
+    "status": 200,
+    "url": "https://www.pfchangs.com/nutrition/menu-nutritionals-to-go",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 259,
+    "status": 403
+  },
+  {
+    "i": 260,
+    "status": 403
+  },
+  {
+    "i": 262,
+    "status": 403
+  },
+  {
+    "i": 263,
+    "status": 200,
+    "url": "https://www.papajohns.com/company/nutrition-allergen-information.html",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 264,
+    "status": 200,
+    "url": "https://www.papamurphys.com/nutrition/",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 269,
+    "status": 404
+  },
+  {
+    "i": 270,
+    "status": 200,
+    "url": "https://www.peets.com/pages/nutrition-allergen-facts",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 271,
+    "status": 403
+  },
+  {
+    "i": 272,
+    "status": 200,
+    "url": "https://www.penn-station.com/menu_nutrition.php",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 273,
+    "status": 200,
+    "url": "https://a.storyblok.com/f/99717/x/f41566b855/nutritional-guide.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 277,
+    "status": 200,
+    "url": "https://www.pickupstix.com/nutrition-information",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 278,
+    "status": 200,
+    "url": "https://www.pinkberry.com/nutritional-and-allergens/index.php",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 279,
+    "status": "unverified",
+    "error": "The read operation timed out"
+  },
+  {
+    "i": 280,
+    "status": 200,
+    "url": "https://www.pjscoffee.com/404.php",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 282,
+    "status": 200,
+    "url": "https://www.planetsmoothie.com/assets/pdf/Nutritional-Information.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 284,
+    "status": 200,
+    "url": "https://assets-global.website-files.com/5e34767f6a3a0e8257cafc5c/661467d19c9f16c8fbc82698_Nutritional%20Guide%20and%20Allergens%2004-08-24.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 285,
+    "status": 403
+  },
+  {
+    "i": 287,
+    "status": 200,
+    "url": "https://www.popeyes.com/nutritional-information",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 288,
+    "status": 404
+  },
+  {
+    "i": 290,
+    "status": 403
+  },
+  {
+    "i": 291,
+    "status": 403
+  },
+  {
+    "i": 292,
+    "status": 200,
+    "url": "https://thelube.com/pdf/qsl-menu-nutritional-information-01-2020.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 293,
+    "status": 200,
+    "url": "https://www.quiznos.com/wp-content/uploads/2024/07/Quiznos-US-Base-Nutritionals-7.26.24.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 294,
+    "status": 200,
+    "url": "https://rasushi.com/wp-content/uploads/2025/09/Benihana-RA-Sushi-Concessions-Nutritional-Information-Sheet.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 296,
+    "status": 403
+  },
+  {
+    "i": 297,
+    "status": 403
+  },
+  {
+    "i": 298,
+    "status": 200,
+    "url": "https://www.nutritionix.com/ram-restaurant-brewery/menu/premium",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 299,
+    "status": 200,
+    "url": "https://img-ecomm-rl-prod-fye5gqbxdtbghqer.a03.azurefd.net/brandsite/documents/US_Nutrition_1-19-26.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 300,
+    "status": 200,
+    "url": "https://sitemedia.blob.core.windows.net/redmango/2020/02/RM_Nutrition-Book-July-2019.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 301,
+    "status": 200,
+    "url": "https://www.redrobin.com/nutrition-information",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 302,
+    "status": 200,
+    "url": "https://cdn.ritasice.com/wp-content/uploads/2024/02/2024-Master-Nutrition-Guide.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 303,
+    "status": 403
+  },
+  {
+    "i": 304,
+    "status": 403
+  },
+  {
+    "i": 307,
+    "status": 200,
+    "url": "https://www.nutritionix.com/romanos-macaroni-grill/menu/premium",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 308,
+    "status": 200,
+    "url": "https://www.rosatispizza.com/nutrition",
+    "mime": "text/html;charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 309,
+    "status": 403
+  },
+  {
+    "i": 310,
+    "status": 403
+  },
+  {
+    "i": 311,
+    "status": 200,
+    "url": "https://www.rubytuesday.com/faq/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 316,
+    "status": 403
+  },
+  {
+    "i": 318,
+    "status": 200,
+    "url": "https://www.sarkujapan.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 319,
+    "status": 404
+  },
+  {
+    "i": 320,
+    "status": 200,
+    "url": "https://www.scooterscoffee.com/media/wysiwyg/nutrition-and-allergen-information.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 321,
+    "status": 200,
+    "url": "https://scramblersrestaurants.com/wp-content/uploads/2025/03/Scramblers-Menu-Nutritional-Info-Mar-2025.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 322,
+    "status": 403
+  },
+  {
+    "i": 323,
+    "status": 403
+  },
+  {
+    "i": 325,
+    "status": 403
+  },
+  {
+    "i": 326,
+    "status": 403
+  },
+  {
+    "i": 327,
+    "status": 200,
+    "url": "https://sizzler.com/wp-content/uploads/2024/07/Sizzler-Nutrition.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 328,
+    "status": 403
+  },
+  {
+    "i": 329,
+    "status": 200,
+    "url": "https://www.slimchickens.com/nutritional-and-allergen-info",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 331,
+    "status": 200,
+    "url": "https://www.nutritionix.com/smashburger/menu/premium",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 333,
+    "status": 200,
+    "url": "https://smokeybones.com/wp-content/uploads/2020/01/Core-Menu-Nutritionals-1.13.20.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 334,
+    "status": 200,
+    "url": "https://www.smoothieking.com/nutrition/",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 335,
+    "status": "unverified",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "i": 336,
+    "status": 200,
+    "url": "https://www.sonnysbbq.com/wp-content/uploads/2023/11/Sonnys-BBQ-Menu-Nutritionals-2023.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 337,
+    "status": 200,
+    "url": "https://www.starbucks.com/menu/product-nutrition",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 338,
+    "status": 200,
+    "url": "https://beeftallow.steaknshake.com/pages/nutrition-info",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 340,
+    "status": "unverified",
+    "error": "The read operation timed out"
+  },
+  {
+    "i": 341,
+    "status": 200,
+    "url": "https://www.sweetfrog.com/menu/nutrition/index.php",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 344,
+    "status": 200,
+    "url": "https://www.tacobell.com/nutrition/info",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 345,
+    "status": 404
+  },
+  {
+    "i": 346,
+    "status": 200,
+    "url": "https://www.tacocabana.com/wp-content/uploads/2025/01/TacoCabana_NutritionalGuide_Jan_2025_R2_LR_M.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 347,
+    "status": 403
+  },
+  {
+    "i": 349,
+    "status": 200,
+    "url": "https://storyblok.pleinaircdn.com/f/320970/x/555dae479c/taco_palenque_nutritional_facts.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 350,
+    "status": 200,
+    "url": "https://www.tacotime.com/assets/pdf/nutrition/TacoTime_Nutritionals.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 351,
+    "status": 403
+  },
+  {
+    "i": 352,
+    "status": 200,
+    "url": "https://app.everybite.com/widget/texas-de-brazil",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 353,
+    "status": 200,
+    "url": "https://www.nutritionix.com/texas-roadhouse/portal",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 354,
+    "status": 403
+  },
+  {
+    "i": 355,
+    "status": 200,
+    "url": "https://www.thaiexpressfood.com/assets/pdf/nutritionals.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 356,
+    "status": "unverified",
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  {
+    "i": 357,
+    "status": 200,
+    "url": "https://media.thecapitalgrille.com/images/site/ext/menu/TCG_Nutrition_Guide.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 358,
+    "status": 200,
+    "url": "https://www.coffeebean.com/pages/nutrition",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 359,
+    "status": 200,
+    "url": "https://www.thecounter.com/menu/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 369,
+    "status": 200,
+    "url": "https://www.timhortons.com/nutrition",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 370,
+    "status": 200,
+    "url": "https://togos.com/wp-content/uploads/2026/05/Nutritional-Allergen-Information_June-2024.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 371,
+    "status": 200,
+    "url": "https://tokyojoes.com/menu/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 373,
+    "status": 200,
+    "url": "https://topgolf.com/us/menu/",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 374,
+    "status": 200,
+    "url": "https://toppers.com/siteassets/media/nutrition-information/toppers-nutrition-guide-2025.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 375,
+    "status": 404
+  },
+  {
+    "i": 376,
+    "status": 200,
+    "url": "https://tljus.com/menus/breads/milk-soft",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 377,
+    "status": 200,
+    "url": "https://prod.tropicalsmoothiecafe.com/nutrition",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 380,
+    "status": "unverified",
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  {
+    "i": 382,
+    "status": 403
+  },
+  {
+    "i": 383,
+    "status": "unverified",
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  {
+    "i": 384,
+    "status": "unverified",
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  {
+    "i": 386,
+    "status": "unverified",
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  {
+    "i": 387,
+    "status": "unverified",
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  {
+    "i": 388,
+    "status": "unverified",
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  {
+    "i": 389,
+    "status": "unverified",
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  {
+    "i": 390,
+    "status": 200,
+    "url": "https://www.wahaca.co.uk/mexican-menu-full/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 391,
+    "status": 406
+  },
+  {
+    "i": 393,
+    "status": 200,
+    "url": "https://waybackburgers.com/nutritional-info/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 395,
+    "status": 200,
+    "url": "https://www.wendys.com/nutrition-allergens",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 396,
+    "status": 200,
+    "url": "https://www.wetzels.com/nutrition",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 397,
+    "status": 200,
+    "url": "https://wbimageserver.whataburger.com/Nutrition.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 398,
+    "status": 200,
+    "url": "https://whichwich.com/pdf/WW-Nutritional-Info.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 399,
+    "status": 200,
+    "url": "https://www.whitecastle.com/about-us/restaurant-menu-nutrition-information",
+    "mime": "text/html;charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 400,
+    "status": 403
+  },
+  {
+    "i": 401,
+    "status": 200,
+    "url": "https://willys.com/menu/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 403,
+    "status": 200,
+    "url": "https://cdn.wingzone.com/WingZone/Wing-Zone-Nutritonal-Information.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 404,
+    "status": 200,
+    "url": "https://simmer-wingsover.s3.amazonaws.com/wingsover/wp-content/uploads/sites/15/2020/10/Nutritional-PDF-2020-Allergen-Website-v4.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 405,
+    "status": 200,
+    "url": "https://www.wingstop.com/nutrition",
+    "mime": "text/html",
+    "html_error": false
+  },
+  {
+    "i": 407,
+    "status": 403
+  },
+  {
+    "i": 408,
+    "status": 403
+  },
+  {
+    "i": 409,
+    "status": 200,
+    "url": "https://media.yardhouse.com/images/site/ext/nutrition/yh-nutrition-guide.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 410,
+    "status": 200,
+    "url": "https://www.yogurtland.com/files/nutritionalfacts.pdf?v=021523",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 411,
+    "status": 200,
+    "url": "https://www.yoshinoyaamerica.com/nutrition.php",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 412,
+    "status": 403
+  },
+  {
+    "i": 413,
+    "status": 200,
+    "url": "https://ziggiscoffee.com/menu/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  }
+]

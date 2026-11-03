@@ -1,0 +1,20 @@
+.text {
+  font-size: large;
+}
+
+.verse-num {
+  display: inline;
+  color: #7a6a80;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 2px;
+}
+
+.chapter-num {
+}
+
+.first {
+  margin-left: 0px;
+}

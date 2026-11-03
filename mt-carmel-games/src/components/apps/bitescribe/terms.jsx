@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Terms() {
   return (
-    <main className="legal-page">
+    <article className="document">
       <h1>BiteScribe Terms of Service</h1>
 
       <p>
@@ -189,6 +189,6 @@ export default function Terms() {
         <br />
         Email: admin@mountcarmelgames.com
       </address>
-    </main>
+    </article>
   );
 }

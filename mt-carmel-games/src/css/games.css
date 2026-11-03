@@ -1,0 +1,50 @@
+.games-page .product-feature {
+  min-height: 440px;
+}
+
+.games-page .product-icon-crop {
+  position: relative;
+  display: block;
+  flex: 0 0 74px;
+  height: 74px;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.games-page .product-icon-crop img {
+  position: absolute;
+  width: 600%;
+  height: auto;
+  left: -61%;
+  top: -172%;
+}
+
+.games-page .product-art--image {
+  min-height: 0;
+  background: #8dab08;
+}
+
+.games-page .product-showcase {
+  object-fit: contain;
+}
+
+.games-page .product-availability {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 28px;
+}
+
+.games-page .product-availability::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #afd018;
+}
+
+@media (max-width: 700px) {
+  .games-page .product-art--image {
+    aspect-ratio: 1343 / 803;
+  }
+}

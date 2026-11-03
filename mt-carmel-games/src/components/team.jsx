@@ -7,7 +7,7 @@ const teamMembers = [
     name: "Jeffery Bunn",
     role: "Founder & Game Developer",
     image: "/images/team/jeffery-bunn.png",
-    bio: "Jeffery is a game and software developer with more than 20 years of experience turning ambitious ideas into polished, playable experiences. He has shipped 14 independent games, led Unity development for advanced training simulations, and built projects spanning console, mobile, web, and PC. At Mt. Carmel Games, Jeffery brings programming, game design, and visual art together to create distinctive games that are approachable, engaging, and made with care.",
+    bio: "Jeffery is a game and software developer with more than 20 years of experience turning ambitious ideas into polished, playable experiences. He has shipped 14 independent games, led Unity development for advanced training simulations, and built projects spanning console, mobile, web, and PC. At Mount Carmel Games, Jeffery brings programming, game design, and visual art together to create distinctive games that are approachable, engaging, and made with care.",
   },
   // {
   //   name: "Joshua Nelson",

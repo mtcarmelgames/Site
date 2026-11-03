@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://www.churchs.com/",
+    "matches": []
+  },
+  {
+    "url": "https://www.duckdonuts.com/",
+    "matches": [
+      "_item\\\"},{\\\"_uid\\\":\\\"f46ee788-7fff-49a3-a907-aac2611fe729\\\",\\\"link\\\":{\\\"id\\\":\\\"\\\",\\\"url\\\":\\\"https://a.storyblok.com/f/307743/x/40e02ec6d1/duck-donuts-nutrition-data-sept-10-2024-new-branding.pdf\\\",\\\"linktype\\\":\\\"url\\\",\\\"fieldtype\\\":\\\"multilink\\\",\\\"cached_url\\\":\\\"https://a.storyblok.com/f/307743/x/40e02ec6d1/duck-donuts-nutrition-data-sept-10-2024-new-branding.pdf\\\"},\\\"name\\\":\\\"Nutrition \\u0026 Allergy\\\","
+    ]
+  },
+  {
+    "url": "https://www.pjscoffee.com/",
+    "matches": [
+      "e=\"Food\">Food</a><a href=\"https://www.pjscoffee.com/beignets/\" class=\"dropdown-item \" title=\"Beignets\">Beignets</a><a href=\"https://www.pjscoffee.com/nutrition/\" class=\"dropdown-item \" title=\"Nutrition\">Nutrition</a></div>"
+    ]
+  },
+  {
+    "url": "https://www.cariboucoffee.com/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://newks.com/",
+    "matches": [
+      "ess\"},title:\"Press & Awards\",component:c},{_uid:\"2baa3945-d15f-4aec-afc6-cbc9181c8e91\",link:{id:e,url:ue,linktype:n,fieldtype:o,cached_url:ue},title:\"Nutrition\",component:c}],legalMenu:[{_uid:\"3a3bc94d-4ccb-4560-b9ae-b4e2b4c947dd\",link:{id:\"84f30158-b062-421b-ae66-6b6d9f8033e7\",url:e,linktype:l,fieldtype:o,cached_url:\"terms\"},title:\"Terms & Conditions\",component:c},{_uid:\"1caaa9f8-d86d-450e-ba7c-017d88d2",
+      "d68-136e-4ff8-9e33-8f00a8ea640c\",\"3664dbc3-4905-4994-a61f-8334c4be2782\",\"https://catering.newks.com\",\"Catering\",\"https://ownanewks.com/\",\"https://www.nutritionix.com/newks-eatery/portal\",\"mailto:newks@championmgt.com\")</script><script src=\"/_nuxt/b898f28.js\" defer></script><script src=\"/_nuxt/3fea9c5.js\" defer></script><script src=\"/_nuxt/1beb2c5.js\" defer></script><script src=\"/_nuxt/e446f00.js\" defer><"
+    ]
+  },
+  {
+    "url": "https://www.firehousesubs.com/",
+    "matches": []
+  },
+  {
+    "url": "https://tacobueno.com/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.ocharleys.com/",
+    "matches": []
+  }
+]

@@ -36,7 +36,7 @@ export default function Hero() {
     <section className="hero">
       <div className="radial-gradient" />
       {/* <img src="/images/background_mountains.svg" className="mountains back" /> */}
-      <img src="/images/main_mountains.svg" className="mountains main" />
+      <img src="/images/main_mountains.svg" className="mountains primary" />
       <div className="soft-gradient" />
       <img src="/images/foreground_mountains.svg" className="mountains front" />
       <img src="/images/hills.svg" className="hills" />
@@ -45,6 +45,7 @@ export default function Hero() {
 
       <nav className="main-nav">
         <img src="/images/logo.svg" />
+        {/* <h1 className="logo">Mount Carmel Games</h1> */}
         <ul className="mobile-menu">
           <li>
             <Link to="/">

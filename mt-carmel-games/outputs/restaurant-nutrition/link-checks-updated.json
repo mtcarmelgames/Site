@@ -1,0 +1,125 @@
+[
+  {
+    "i": 2,
+    "status": 200,
+    "url": "https://www.nutritionix.com/ninety-nine-restaurants/menu/premium",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 88,
+    "status": 200,
+    "url": "https://cornerbakerycafe.com/wp-content/uploads/2025/06/CB_Nutrition_Allergen_Info.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 112,
+    "status": 200,
+    "url": "https://a.storyblok.com/f/307743/x/40e02ec6d1/duck-donuts-nutrition-data-sept-10-2024-new-branding.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 182,
+    "status": 200,
+    "url": "https://images.ctfassets.net/5hs630wuugof/5YPXJN6p8U0Esf31agJxUK/05534c155563a67b239740ef0bc51866/Nutrition_Information_2026.PDF",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 221,
+    "status": 200,
+    "url": "https://manchuwok.com/wp-content/uploads/2026/04/WOK-BRNDN-NUTRITIONALS-1291371539-ENG-2-1.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 225,
+    "status": 200,
+    "url": "https://www.nutritionix.com/marcos-pizza/portal",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 231,
+    "status": 200,
+    "url": "https://www.nutritionix.com/mellow-mushroom/portal",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 241,
+    "status": 200,
+    "url": "https://www.mrsfields.com/pages/cookie-nutrition-information",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 245,
+    "status": 200,
+    "url": "https://www.nutritionix.com/newks-eatery/portal",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 251,
+    "status": 200,
+    "url": "https://a.storyblok.com/f/162041/x/5f9825d9d0/oc-nutrition_february-2026.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 269,
+    "status": 200,
+    "url": "https://parisbaguette.com/wp-content/uploads/2026/09/2026-Fall-Nutrition-Chart-US.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 276,
+    "status": 200,
+    "url": "https://www.nutritionix.com/peter-piper-pizza/menu/premium",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 280,
+    "status": 200,
+    "url": "https://www.pjscoffee.com/nutrition/",
+    "mime": "text/html; charset=UTF-8",
+    "html_error": false
+  },
+  {
+    "i": 288,
+    "status": 200,
+    "url": "https://www.portillos.com/nutrition/",
+    "mime": "text/html; charset=utf-8",
+    "html_error": false
+  },
+  {
+    "i": 319,
+    "status": 200,
+    "url": "https://assets.ctfassets.net/zqt8tllj2cy0/3wkZtcobeRUvoOcOWjhR44/a2b753f659f5e4f470076c541e2df7f4/SCH_1899730_Nutritional_and_allergen_chart_2.26_v3.Digital_Upload.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 345,
+    "status": 200,
+    "url": "https://tacobueno.com/wp-content/uploads/2026/06/TB_2016_Nutrition_Allergen_Ingredients_v4-1.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 375,
+    "status": 200,
+    "url": "https://deo-tenant-media.s3.bhs.io.cloud.ovh.net/36d14d49db95a7ed2965f3a28f7c9755/media/9a0f7e0a-7ed9-45fd-aa86-6b96e489b850.pdf",
+    "mime": "application/pdf",
+    "html_error": false
+  },
+  {
+    "i": 392,
+    "status": 403
+  }
+]
