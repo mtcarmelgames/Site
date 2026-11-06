@@ -1,65 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import ReactGA from "react-ga4";
 import { Link } from "react-router-dom";
 
 export default function RequestAccountDeletion() {
-  const [email, setEmail] = useState("");
-  const [notes, setNotes] = useState("");
-  const [submitting, setSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
-  const [error, setError] = useState("");
-
   useEffect(() => {
     ReactGA.send({
       hitType: "pageview",
       page: location.pathname + location.search,
     });
   }, []);
-
-  async function onSubmit(event) {
-    event.preventDefault();
-
-    if (!email.trim()) return;
-
-    setSubmitting(true);
-    setError("");
-
-    try {
-      const response = await fetch("YOUR_ACCOUNT_DELETION_REQUEST_ENDPOINT", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          email: email.trim(),
-          notes: notes.trim(),
-        }),
-      });
-
-      if (!response.ok) throw new Error();
-
-      setSubmitted(true);
-    } catch {
-      setError("Your request could not be submitted. Please try again.");
-    } finally {
-      setSubmitting(false);
-    }
-  }
-
-  if (submitted) {
-    return (
-      <article className="document">
-      <Link to="/apps/bitescribe">← Back to BiteScribe</Link>
-        <h1>BiteScribe Account Deletion</h1>
-
-        <h2>Request received</h2>
-
-        <p>Your BiteScribe account deletion request has been submitted. We may contact you to verify ownership of the account.</p>
-
-        <p>We will send confirmation after the account and associated personal data have been deleted.</p>
-      </article>
-    );
-  }
 
   return (
     <article className="document">
@@ -76,21 +25,24 @@ export default function RequestAccountDeletion() {
 
       <p>App Store or Google Play subscriptions must be canceled separately through the applicable store.</p>
 
-      <form className="stacked-form" onSubmit={onSubmit}>
+      <form className="stacked-form" action="https://formsubmit.co/admin@mountcarmelgames.com" method="POST">
+        <input type="hidden" name="_subject" value="BiteScribe account deletion request" />
+        <input type="hidden" name="_template" value="table" />
         <label htmlFor="email">BiteScribe account email</label>
 
-        <input id="email" name="email" type="email" autoComplete="email" required maxLength={320} value={email} onChange={(event) => setEmail(event.target.value)} />
+        <input id="email" name="email" type="email" autoComplete="email" required maxLength={320} />
 
         <label htmlFor="notes">Additional information (optional)</label>
 
-        <textarea id="notes" name="notes" maxLength={2000} value={notes} onChange={(event) => setNotes(event.target.value)} />
+        <textarea id="notes" name="notes" maxLength={2000} />
 
-        {error && <p role="alert">{error}</p>}
+        <p>Requests are sent through FormSubmit to Mount Carmel Games. Alternatively, email <a href="mailto:admin@mountcarmelgames.com?subject=BiteScribe%20account%20deletion%20request">admin@mountcarmelgames.com</a> from your account email with the subject “BiteScribe account deletion request”. Do not include your password.</p>
 
-        <button className="pill-button" type="submit" disabled={submitting}>
-          {submitting ? "Submitting…" : "Request Permanent Account Deletion"}
+        <button className="pill-button" type="submit">
+          Request Permanent Account Deletion
         </button>
       </form>
     </article>
   );
 }
+
