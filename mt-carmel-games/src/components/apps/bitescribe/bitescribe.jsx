@@ -3,6 +3,7 @@ import { useLocation, Link } from "react-router-dom";
 import ReactGA from "react-ga4";
 import { ArrowDown, ArrowRight, ArrowUpRight, Camera, Check, MessageCircle, Monitor, Moon, ScanLine, ShieldCheck, Smartphone } from "lucide-react";
 import "../../../css/bitescribe.css";
+import { trackStoreClick } from "./store-tracking.js";
 
 
 // Add published listing URLs here as each platform becomes available.
@@ -28,7 +29,7 @@ function PlatformLinks() {
   return (
     <div className="bitescribe-platforms">
       {platforms.map(({ id, name, store, href }) => href ? (
-        <a className="bitescribe-platform bitescribe-platform--available" href={href} key={id} aria-label={`Get BiteScribe for ${name} on the ${store}`}>
+        <a className="bitescribe-platform bitescribe-platform--available" href={href} key={id} aria-label={`Get BiteScribe for ${name} on the ${store}`} onClick={() => trackStoreClick(window.gtag, id)}>
           <img className="bitescribe-store-icon" src={`/images/bitescribe/stores/${storeIcons[id]}`} alt="" width="36" height="36" /><span><small>Available now on</small><strong>{store}</strong><small>For {name}</small></span><ArrowUpRight className="bitescribe-store-arrow" aria-hidden="true" />
         </a>
       ) : (
