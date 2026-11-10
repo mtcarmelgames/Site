@@ -1,13 +1,13 @@
-import { createElement, useEffect, useRef, useState } from "react";
+import { createElement, useEffect, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 import ReactGA from "react-ga4";
 import { ArrowDown, ArrowRight, ArrowUpRight, Camera, Check, MessageCircle, Monitor, Moon, ScanLine, ShieldCheck, Smartphone } from "lucide-react";
 import "../../../css/bitescribe.css";
-import { listenForWaitlistSignup } from "./waitlist-tracking";
+
 
 // Add published listing URLs here as each platform becomes available.
 const platforms = [
-  { id: "windows", name: "Windows", store: "Microsoft Store", icon: Monitor, href: null },
+  { id: "windows", name: "Windows", store: "Microsoft Store", icon: Monitor, href: "https://apps.microsoft.com/detail/9PBDBXBMXWT7?hl=en-us&gl=US&ocid=pdpshare" },
   { id: "ios", name: "iOS", store: "App Store", icon: Smartphone, href: null },
   { id: "android", name: "Android", store: "Google Play", icon: Smartphone, href: null },
 ];
@@ -16,52 +16,24 @@ const screens = [
   { id: "diary", name: "Daily diary", file: "01-diary-macros.png", description: "Calories, macros, and meals. Your day, all together." },
   { id: "photo", name: "Photo logging", file: "02-photo-logging.png", description: "Start with a product, nutrition label, barcode, or meal photo." },
   { id: "review", name: "Food review", file: "03-food-review.png", description: "Check the details and adjust the numbers before adding to your diary." },
-  { id: "calendar", name: "Calendar", file: "04-calendar.png", description: "Look back at your meals and follow your progress over time." },
+  { id: "calendar", name: "Calendar", file: "04-calendar.png", description: "Look back at your daily grades and follow your weekly nutrition challenge." },
   { id: "dark", name: "Dark mode", file: "05-diary-dark.png", description: "The same clear diary, with a quieter look after dark." },
 ];
 
 // Set a local video URL when the BiteScribe trailer is ready.
 const trailerSrc = null;
 const imageRoot = "/images/bitescribe/landing";
-const waitlistFormId = "8d928836-d3e6-11f1-a166-f13327c1fe18";
-
-function WaitlistForm() {
-  const container = useRef(null);
-
-  useEffect(() => {
-    const element = container.current;
-    const stopTracking = listenForWaitlistSignup(
-      document,
-      waitlistFormId,
-      (...args) => window.gtag?.(...args),
-    );
-    const script = document.createElement("script");
-    script.async = true;
-    // Fetch current form content instead of reusing the provider's cached embed.
-    script.src = `https://eocampaign1.com/form/${waitlistFormId}.js?v=${Date.now()}`;
-    script.dataset.form = waitlistFormId;
-    // Let React's development effect cleanup finish before executing the vendor embed.
-    const timer = window.setTimeout(() => element.appendChild(script), 0);
-    return () => {
-      window.clearTimeout(timer);
-      stopTracking();
-      element.replaceChildren();
-    };
-  }, []);
-
-  return <div ref={container} className="bitescribe-signup" />;
-}
-
+const storeIcons = { windows: "microsoft-store.svg", ios: "apple.svg", android: "google-play.svg" };
 function PlatformLinks() {
   return (
     <div className="bitescribe-platforms">
-      {platforms.map(({ id, name, store, icon, href }) => href ? (
-        <a className="bitescribe-platform" href={href} key={id}>
-          {createElement(icon, { "aria-hidden": true })}<span><small>Download for</small><strong>{name}</strong><small>{store}</small></span><ArrowUpRight aria-hidden="true" />
+      {platforms.map(({ id, name, store, href }) => href ? (
+        <a className="bitescribe-platform bitescribe-platform--available" href={href} key={id} aria-label={`Get BiteScribe for ${name} on the ${store}`}>
+          <img className="bitescribe-store-icon" src={`/images/bitescribe/stores/${storeIcons[id]}`} alt="" width="36" height="36" /><span><small>Available now on</small><strong>{store}</strong><small>For {name}</small></span><ArrowUpRight className="bitescribe-store-arrow" aria-hidden="true" />
         </a>
       ) : (
         <div className="bitescribe-platform bitescribe-platform--soon" key={id}>
-          {createElement(icon, { "aria-hidden": true })}<span><small>{store}</small><strong>{name}</strong><small>Coming soon</small></span>
+          <img className="bitescribe-store-icon" src={`/images/bitescribe/stores/${storeIcons[id]}`} alt="" width="36" height="36" /><span><small>Coming soon to</small><strong>{store}</strong><small>For {name}</small></span>
         </div>
       ))}
     </div>
@@ -91,7 +63,6 @@ export default function BiteScribe() {
           <p className="bitescribe-lead">AI-first calorie tracking you can trust.</p>
           <p className="bitescribe-description">Tell BiteScribe what you ate, snap a photo, or scan a barcode. Review your food, portions, and nutrition. Then make it part of your day.</p>
           <PlatformLinks />
-          <a className="bitescribe-waitlist-link" href="#bitescribe-waitlist">Join the waitlist <ArrowRight size={16} aria-hidden="true" /></a>
           <a className="bitescribe-text-link" href="#bitescribe-preview">Take a look inside <ArrowDown size={16} aria-hidden="true" /></a>
         </div>
         <div className="bitescribe-intro-art">
@@ -126,7 +97,7 @@ export default function BiteScribe() {
       <section className="bitescribe-section bitescribe-features" aria-labelledby="bitescribe-features-heading">
         <div className="bitescribe-section-heading"><p className="bitescribe-eyebrow">More than a calorie count</p><h2 id="bitescribe-features-heading">A little perspective<br />goes a long way.</h2></div>
         <div className="bitescribe-feature-grid">
-          <article className="bitescribe-calendar-card"><div><span className="bitescribe-feature-number">01 / THE BIGGER PICTURE</span><h3>Every day tells<br />part of your story.</h3><p>Revisit meals, see your daily grades, and find encouragement in BiteScribe Perspective. An honest record helps you notice what works for you.</p></div><img src={`${imageRoot}/android/04-calendar.png`} alt="BiteScribe calendar with daily grades and a daily Perspective message" width="1080" height="2400" loading="lazy" /></article>
+          <article className="bitescribe-calendar-card"><div><span className="bitescribe-feature-number">01 / THE BIGGER PICTURE</span><h3>Every day tells<br />part of your story.</h3><p>Revisit meals, see your daily grades, and follow your weekly nutrition challenge. An honest record helps you notice what works for you.</p></div><img src={`${imageRoot}/android/04-calendar.png`} alt="BiteScribe calendar with daily grades and weekly protein challenge progress" width="1080" height="2400" loading="lazy" /></article>
           <article className="bitescribe-control-card"><ShieldCheck size={32} aria-hidden="true" /><span className="bitescribe-feature-number">02 / YOU'RE IN CONTROL</span><h3>Helpful AI.<br />Human judgment.</h3><p>Food isn't always simple. BiteScribe makes room for questions, corrections, and the portion you actually ate.</p><ul><li><Check size={17} aria-hidden="true" /> Adjust servings and nutrition</li><li><Check size={17} aria-hidden="true" /> Review available sources</li><li><Check size={17} aria-hidden="true" /> Keep, edit, or discard a food card</li></ul><p className="bitescribe-fine-print">AI and photo estimates can make mistakes. Review helps you keep a diary you understand.</p></article>
           <article className="bitescribe-dark-card"><div><span className="bitescribe-feature-number"><Moon size={16} aria-hidden="true" /> 03 / A QUIETER LOOK</span><h3>Easy on the eyes.<br />Even after dinner.</h3><p>Switch to dark mode and keep your daily nutrition in focus.</p></div><img src={`${imageRoot}/ios/05-diary-dark.png`} alt="BiteScribe diary in dark mode on iPhone" width="1320" height="2868" loading="lazy" /></article>
         </div>
@@ -134,12 +105,7 @@ export default function BiteScribe() {
 
       {trailerSrc && <section className="bitescribe-section bitescribe-trailer" aria-label="Watch the BiteScribe trailer"><h2>A closer look at BiteScribe.</h2><video src={trailerSrc} controls playsInline preload="none" aria-label="BiteScribe trailer" /></section>}
 
-      <section className="bitescribe-download" id="bitescribe-download" aria-labelledby="bitescribe-download-heading"><img src={`${imageRoot}/app-icon.png`} alt="" width="64" height="64" loading="lazy" /><p className="bitescribe-eyebrow">Your next chapter starts with a bite.</p><h2 id="bitescribe-download-heading">Make room for<br />a clearer picture.</h2><p>A diary you understand. A record you control.<br />BiteScribe is coming to your favorite devices.</p><PlatformLinks />
-        <div className="bitescribe-waitlist" id="bitescribe-waitlist">
-          <h3>Be first to try BiteScribe.</h3>
-          <p>Join the BiteScribe waitlist for launch updates.</p>
-          <WaitlistForm />
-        </div>
+      <section className="bitescribe-download" id="bitescribe-download" aria-labelledby="bitescribe-download-heading"><img src={`${imageRoot}/app-icon.png`} alt="" width="64" height="64" loading="lazy" /><p className="bitescribe-eyebrow">Your next chapter starts with a bite.</p><h2 id="bitescribe-download-heading">Make room for<br />a clearer picture.</h2><p>A diary you understand. A record you control.<br />Available now for Windows. iOS and Android are coming soon.</p><PlatformLinks />
       </section>
 
       <footer className="bitescribe-footer"><span>BiteScribe <small>by Mt. Carmel Games</small></span><nav aria-label="BiteScribe support and policies"><Link to="/apps/bitescribe/privacy_policy">Privacy</Link><Link to="/apps/bitescribe/terms">Terms</Link><Link to="/contact">Support</Link></nav></footer>
