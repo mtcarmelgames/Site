@@ -10,7 +10,7 @@ import { trackStoreClick } from "./store-tracking.js";
 const platforms = [
   { id: "windows", name: "Windows", store: "Microsoft Store", icon: Monitor, href: "https://apps.microsoft.com/detail/9PBDBXBMXWT7?hl=en-us&gl=US&ocid=pdpshare" },
   { id: "ios", name: "iOS", store: "App Store", icon: Smartphone, href: null },
-  { id: "android", name: "Android", store: "Google Play", icon: Smartphone, href: null },
+  { id: "android", name: "Android", store: "Google Play", icon: Smartphone, href: "https://play.google.com/store/apps/details?id=com.mountcarmelgames.bitescribe" },
 ];
 
 const screens = [
@@ -106,7 +106,7 @@ export default function BiteScribe() {
 
       {trailerSrc && <section className="bitescribe-section bitescribe-trailer" aria-label="Watch the BiteScribe trailer"><h2>A closer look at BiteScribe.</h2><video src={trailerSrc} controls playsInline preload="none" aria-label="BiteScribe trailer" /></section>}
 
-      <section className="bitescribe-download" id="bitescribe-download" aria-labelledby="bitescribe-download-heading"><img src={`${imageRoot}/app-icon.png`} alt="" width="64" height="64" loading="lazy" /><p className="bitescribe-eyebrow">Your next chapter starts with a bite.</p><h2 id="bitescribe-download-heading">Make room for<br />a clearer picture.</h2><p>A diary you understand. A record you control.<br />Available now for Windows. iOS and Android are coming soon.</p><PlatformLinks />
+      <section className="bitescribe-download" id="bitescribe-download" aria-labelledby="bitescribe-download-heading"><img src={`${imageRoot}/app-icon.png`} alt="" width="64" height="64" loading="lazy" /><p className="bitescribe-eyebrow">Your next chapter starts with a bite.</p><h2 id="bitescribe-download-heading">Make room for<br />a clearer picture.</h2><p>A diary you understand. A record you control.<br />Available now for Windows and Android. iOS is coming soon.</p><PlatformLinks />
       </section>
 
       <footer className="bitescribe-footer"><span>BiteScribe <small>by Mt. Carmel Games</small></span><nav aria-label="BiteScribe support and policies"><Link to="/apps/bitescribe/privacy_policy">Privacy</Link><Link to="/apps/bitescribe/terms">Terms</Link><Link to="/contact">Support</Link></nav></footer>
