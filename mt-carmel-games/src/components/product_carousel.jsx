@@ -47,11 +47,11 @@ export default function ProductCarousel({ products = [], kind = "app" }) {
           {product.headline && <h3>{product.headline}</h3>}
           <p className="product-description">{product.description}</p>
           {product.platforms?.length > 0 && <ul className="product-platforms" aria-label="Supported platforms">{product.platforms.map((platform) => <li key={platform}>{platform === "Windows" ? <Monitor size={18} aria-hidden="true" /> : <Smartphone size={18} aria-hidden="true" />}{platform}</li>)}</ul>}
-          <p className="product-availability">{product.availability}</p>
+          {product.availability && <p className="product-availability">{product.availability}</p>}
           {product.previewOnly ? <a className="product-explore" href={product.preview.src} target="_blank" rel="noreferrer">View game preview<ArrowRight size={21} aria-hidden="true" /></a> : <Link className="product-explore" to={product.path}>Explore {product.name}<ArrowRight size={21} aria-hidden="true" /></Link>}
         </div>
         <div className={`product-art${product.preview ? " product-art--image" : ""}`} aria-label={`${product.name} previews`}>
-          {product.preview ? <img className="product-showcase" src={product.preview.src} alt={product.preview.alt} width="1536" height="1024" /> : <>
+          {product.preview ? <img className="product-showcase" src={product.preview.src} alt={product.preview.alt} width={product.preview.width ?? 1536} height={product.preview.height ?? 1024} style={product.preview.position ? { objectPosition: product.preview.position } : undefined} /> : <>
             {product.desktop && <div className="product-laptop"><div className="product-laptop-screen"><img src={product.desktop.src} alt={product.desktop.alt} /></div><div className="product-laptop-base" aria-hidden="true" /></div>}
             {product.phone && <div className="product-phone"><img src={product.phone.src} alt={product.phone.alt} /></div>}
           </>}

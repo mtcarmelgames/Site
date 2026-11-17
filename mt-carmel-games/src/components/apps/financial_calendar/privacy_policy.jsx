@@ -1,239 +1,119 @@
 import { useEffect } from "react";
 import ReactGA from "react-ga4";
+import { Link } from "react-router-dom";
 
 export default function PrivacyPolicy() {
   useEffect(() => {
-    ReactGA.send({ hitType: "pageview", page: location.pathname + location.search });
-  }, [location]);
+    ReactGA.send({
+      hitType: "pageview",
+      page: location.pathname + location.search,
+    });
+  }, []);
 
   return (
-    <>
-      <h1>Privacy Policy</h1>
-      <p>Last updated: November 08, 2025</p>
-      <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
+    <article className="document">
+      <Link to="/apps/financial_calendar">← Back to Financial Calendar</Link>
+      <h1>Financial Calendar Privacy Policy</h1>
+
       <p>
-        We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the
-        <a href="https://www.termsfeed.com/privacy-policy-generator/" target="_blank">
-          Privacy Policy Generator
-        </a>
-        .
+        <strong>Effective Date:</strong> November 15, 2026
       </p>
-      <h2>Interpretation and Definitions</h2>
-      <h3>Interpretation</h3>
-      <p>The words whose initial letters are capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
-      <h3>Definitions</h3>
-      <p>For the purposes of this Privacy Policy:</p>
+
+      <p>
+        <strong>Last Updated:</strong> November 17, 2026
+      </p>
+
+      <p>Financial Calendar is operated by Mount Carmel Games LLC ("Mount Carmel Games", "we", "us", or "our").</p>
+
+      <p>Financial Calendar helps you plan bills and pay periods. This policy explains what the app collects, where it is kept, and the choices you have. It applies to the Financial Calendar apps for Windows, Android, and iOS.</p>
+
+      <h2>1. Using the App Without an Account</h2>
+
+      <p>Without signing in, you can open and read files on your device, and nothing you enter is sent to us. Editing needs a signed-in account, because the 30-day free trial and the purchase belong to the account.</p>
+
+      <h2>2. Information We Collect When You Sign In</h2>
+
+      <h3>Account Information</h3>
+
+      <p>Financial Calendar uses Auth0 to sign you in with Google, Apple, or an email address and password. We receive your name, email address, profile picture (if your sign-in provider has one), and an account identifier. We never receive your Google or Apple password. The same Mount Carmel Games sign-in also works in our other apps, such as BiteScribe.</p>
+
+      <h3>Your Files</h3>
+
+      <p>When you are signed in, the files you keep in your account (up to three) are stored on our server so they open on all your devices. A file holds what you enter: statement dates, bill names, amounts, due dates, paid and cleared marks, recurring items, and notes. We do not connect to your bank and never ask for bank, card, or account numbers.</p>
+
+      <h3>Your Trial and Purchase</h3>
+
+      <p>We record when your account's free trial started and whether your account has bought Financial Calendar, with the store's purchase identifier, so one purchase unlocks the app on all your devices. Payment is handled by Stripe (on Windows), Google Play, or the App Store. We never receive your card or bank details. On Windows, Stripe's checkout page collects your email address and payment details under <a href="https://stripe.com/privacy" target="_blank" rel="noopener noreferrer">Stripe's Privacy Policy</a>. We keep only the record that your account paid and Stripe's payment ID.</p>
+
+      <h3>Technical Information</h3>
+
+      <p>Our server records the time, address (IP), and result of requests to keep the service secure and working. These logs are kept for a short time and are not used to build a profile of you.</p>
+
+      <h2>3. What We Do Not Do</h2>
+
+      <ul>
+        <li>We do not show ads.</li>
+        <li>We do not use analytics or tracking in the app.</li>
+        <li>We do not sell, rent, or share your information with advertisers or data brokers.</li>
+        <li>We do not read your files except when needed to fix a problem you report to us, or when required by law.</li>
+      </ul>
+
+      <p>This policy covers the app. Our website, including the Financial Calendar page, uses Google Analytics and Google Ads to count visits and measure our ads. The app does not.</p>
+
+      <h2>4. How We Use Information</h2>
+
+      <p>We use your account information to sign you in and show who is signed in. We use your files only to store them and deliver them to your devices.</p>
+
+      <h2>5. Service Providers</h2>
+
       <ul>
         <li>
-          <p>
-            <strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.
-          </p>
+          <strong>Auth0 (Okta)</strong> provides sign-in.
         </li>
         <li>
-          <p>
-            <strong>Affiliate</strong> means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
-          </p>
+          <strong>IONOS</strong> hosts our server in the United States.
         </li>
         <li>
-          <p>
-            <strong>Application</strong> refers to Financial Calendar, the software program provided by the Company.
-          </p>
+          <strong>Google</strong> and <strong>Apple</strong> confirm your identity if you choose to sign in with them.
         </li>
         <li>
-          <p>
-            <strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Financial Calendar.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>Country</strong> refers to: Alabama, United States
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>Device</strong> means any device that can access the Service such as a computer, a cell phone or a digital tablet.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>Service</strong> refers to the Application.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services
-            related to the Service or to assist the Company in analyzing how the Service is used.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
-          </p>
+          <strong>Stripe</strong>, <strong>Google Play</strong>, and the <strong>App Store</strong> process purchases and confirm them to our server.
         </li>
       </ul>
-      <h2>Collecting and Using Your Personal Data</h2>
-      <h3>Types of Data Collected</h3>
-      <h4>Personal Data</h4>
-      <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
-      <ul>
-        <li>
-          <p>Email address</p>
-        </li>
-        <li>
-          <p>Usage Data</p>
-        </li>
-      </ul>
-      <h4>Usage Data</h4>
-      <p>Usage Data is collected automatically when using the Service.</p>
+
+      <h2>6. Security</h2>
+
+      <p>All traffic between the app and our server uses HTTPS. Each account can only read and change its own files. Your sign-in is kept in your device's secure storage. No system is perfectly secure, but we work to protect your information.</p>
+
+      <h2>7. Retention and Deletion</h2>
+
       <p>
-        Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+        Your files are kept until you delete them or your account. You can delete a single file from the Open dialog, or everything at once in <strong>Settings → Account → Delete account</strong>. Deleting removes your files from our server and from your devices right away. Copies may stay in our server backups until those backups are replaced. We keep the record of your trial and any purchase, because purchases are sales records we must keep, and so that signing in again restores your purchase.
       </p>
+
       <p>
-        When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device's unique ID, the IP address of Your mobile device, Your mobile operating system, the type of
-        mobile Internet browser You use, unique device identifiers and other diagnostic data.
+        You can also <Link to="/apps/financial_calendar/request_account_deletion">request deletion on our website</Link>. Signing out removes your account's files from that device but keeps them in your account.
       </p>
-      <p>We may also collect information that Your browser sends whenever You visit Our Service or when You access the Service by or through a mobile device.</p>
-      <h3>Use of Your Personal Data</h3>
-      <p>The Company may use Personal Data for the following purposes:</p>
-      <ul>
-        <li>
-          <p>
-            <strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>For the performance of a contract:</strong> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted
-            services, including the security updates, when necessary or reasonable for their implementation.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>To provide You</strong> with news, special offers, and general information about other goods, services and events which We offer that are similar to those that you have already purchased or inquired about unless You have opted not to receive such information.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>To manage Your requests:</strong> To attend and manage Your requests to Us.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>For business transfers:</strong> We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or
-            similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.
-          </p>
-        </li>
-      </ul>
-      <p>We may share Your personal information in the following situations:</p>
-      <ul>
-        <li>
-          <strong>With Service Providers:</strong> We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You.
-        </li>
-        <li>
-          <strong>For business transfers:</strong> We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.
-        </li>
-        <li>
-          <strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or
-          that are under common control with Us.
-        </li>
-        <li>
-          <strong>With business partners:</strong> We may share Your information with Our business partners to offer You certain products, services or promotions.
-        </li>
-        <li>
-          <strong>With other users:</strong> when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.
-        </li>
-        <li>
-          <strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your consent.
-        </li>
-      </ul>
-      <h3>Retention of Your Personal Data</h3>
+
+      <h2>8. Children</h2>
+
+      <p>Financial Calendar is not directed to children under 13, and we do not knowingly collect information from them. If you believe a child has given us information, contact us and we will delete it.</p>
+
+      <h2>9. Changes to This Policy</h2>
+
+      <p>If we change this policy, we will update the date above and, for significant changes, tell you in the app.</p>
+
       <p>
-        The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply
-        with applicable laws), resolve disputes, and enforce our legal agreements and policies.
+        Using Financial Calendar is also subject to the <Link to="/apps/financial_calendar/terms">Financial Calendar Terms of Use</Link>.
       </p>
+
+      <h2>10. Contact Us</h2>
+
       <p>
-        The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for
-        longer periods.
+        Mount Carmel Games LLC
+        <br />
+        Email: <a href="mailto:admin@mountcarmelgames.com">admin@mountcarmelgames.com</a>
       </p>
-      <h3>Transfer of Your Personal Data</h3>
-      <p>
-        Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state,
-        province, country or other governmental jurisdiction where the data protection laws may differ from those from Your jurisdiction.
-      </p>
-      <p>Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.</p>
-      <p>
-        The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the
-        security of Your data and other personal information.
-      </p>
-      <h3>Delete Your Personal Data</h3>
-      <p>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.</p>
-      <p>Our Service may give You the ability to delete certain information about You from within the Service.</p>
-      <p>
-        You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal
-        information that You have provided to Us.
-      </p>
-      <p>Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.</p>
-      <h3>Disclosure of Your Personal Data</h3>
-      <h4>Business Transactions</h4>
-      <p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
-      <h4>Law enforcement</h4>
-      <p>Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
-      <h4>Other legal requirements</h4>
-      <p>The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:</p>
-      <ul>
-        <li>Comply with a legal obligation</li>
-        <li>Protect and defend the rights or property of the Company</li>
-        <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
-        <li>Protect the personal safety of Users of the Service or the public</li>
-        <li>Protect against legal liability</li>
-      </ul>
-      <h3>Security of Your Personal Data</h3>
-      <p>
-        The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially reasonable means to protect Your Personal Data, We cannot guarantee its absolute security.
-      </p>
-      <h2>Children's Privacy</h2>
-      <p>
-        Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become
-        aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.
-      </p>
-      <p>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</p>
-      <h2>Links to Other Websites</h2>
-      <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
-      <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
-      <h2>Changes to this Privacy Policy</h2>
-      <p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
-      <p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.</p>
-      <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
-      <h2>Contact Us</h2>
-      <p>If you have any questions about this Privacy Policy, You can contact us:</p>
-      <ul>
-        <li>By email: mtcarmelgames@gmail.com</li>
-      </ul>
-    </>
+    </article>
   );
 }

@@ -16,10 +16,21 @@ const products = [
     icon: "/images/bitescribe/landing/app-icon.png",
     path: "/apps/bitescribe",
     platforms: ["Windows", "iOS", "Android"],
-    availability: "Coming soon",
     preview: { src: "/images/bitescribe/landing/product-showcase.png", alt: "BiteScribe nutrition diary shown on a laptop and iPhone in a warm workspace" },
     desktop: { src: "/images/bitescribe/landing/windows/01-diary-macros.png", alt: "BiteScribe daily nutrition and food diary on Windows" },
     phone: { src: "/images/bitescribe/landing/ios/01-diary-macros.png", alt: "BiteScribe daily nutrition and food diary on iPhone" },
+  },
+  {
+    id: "financial_calendar",
+    name: "Financial Calendar",
+    category: "Bills & budgeting",
+    headline: "Every bill, planned by paycheck.",
+    description: "See what each paycheck has to cover before it arrives, check bills off as you pay them, and know what's left.",
+    icon: "/images/financial_calendar/landing/app-icon.png",
+    path: "/apps/financial_calendar",
+    platforms: ["Windows", "iOS", "Android"],
+    availability: "Coming soon",
+    preview: { src: "/images/financial_calendar/landing/product-showcase.png", alt: "Financial Calendar pay periods on a desktop monitor and an Android phone on a sunny desk, next to a paper calendar", position: "75% center", width: 1672, height: 941 },
   },
 ];
 

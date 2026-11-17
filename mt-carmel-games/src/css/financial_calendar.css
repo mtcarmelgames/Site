@@ -1,0 +1,929 @@
+/* Financial Calendar stays inside the studio layout, like BiteScribe; colors follow the app icon. */
+.main:has(> .fincal) {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+  background: #f6f8fc;
+  border-radius: 16px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.fincal {
+  --fc-ink: #15284a;
+  --fc-green: #2f64cc;
+  --fc-muted: #5a687e;
+  --fc-line: #dde3ee;
+  color: var(--fc-ink);
+  text-align: left;
+  width: 100%;
+}
+
+.fincal *,
+.fincal *::before,
+.fincal *::after {
+  box-sizing: border-box;
+}
+
+.fincal section {
+  display: block;
+  height: auto;
+  color: inherit;
+  justify-items: normal;
+}
+
+.fincal a {
+  color: inherit;
+  font-size: inherit;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.fincal a:hover,
+.fincal a:active {
+  position: static;
+  color: var(--fc-green);
+}
+
+.fincal a:focus-visible,
+.fincal button:focus-visible,
+.fincal summary:focus-visible {
+  outline: 3px solid #e0a030;
+  outline-offset: 5px;
+}
+
+.fincal h1,
+.fincal h2,
+.fincal h3,
+.fincal p {
+  margin-top: 0;
+}
+
+.fincal p {
+  line-height: 1.7;
+}
+
+.fincal h2 {
+  font-size: clamp(2rem, 3.7vw, 3.5rem);
+  font-weight: 650;
+  letter-spacing: -0.045em;
+  line-height: 1.13;
+  margin-bottom: 22px;
+}
+
+.fincal h3 {
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+}
+
+.fincal-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px clamp(20px, 4vw, 64px);
+  border-bottom: 1px solid var(--fc-line);
+}
+
+.fincal-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.35rem !important;
+  letter-spacing: -0.04em;
+}
+
+.fincal-brand img,
+.fincal-download > img {
+  border-radius: 14px;
+}
+
+.fincal-brand-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.fincal-brand-copy small {
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--fc-muted);
+}
+
+.fincal-nav nav,
+.fincal-footer nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 0.85rem;
+}
+
+.fincal-nav-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--fc-line);
+  border-radius: 30px;
+  padding: 12px 18px;
+}
+
+.fincal .fincal-intro {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 30px;
+  padding: 72px clamp(24px, 5vw, 76px) 64px;
+  background: radial-gradient(ellipse at 85% 40%, #dbe6fa 0%, transparent 57%);
+}
+
+.fincal-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--fc-green);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.fincal-eyebrow > span {
+  width: 7px;
+  height: 7px;
+  background: var(--fc-green);
+  border-radius: 50%;
+}
+
+.fincal h1 {
+  font-size: clamp(3.2rem, 5.7vw, 5.6rem);
+  line-height: 1.02;
+  letter-spacing: -0.065em;
+  font-weight: 650;
+  margin-bottom: 28px;
+}
+
+.fincal h1 em {
+  font-style: normal;
+  color: var(--fc-green);
+}
+
+.fincal-lead {
+  font-weight: 650;
+  font-size: 1.23rem;
+  margin-bottom: 10px;
+}
+
+.fincal-description {
+  max-width: 475px;
+  color: var(--fc-muted);
+  font-size: 1rem;
+  margin-bottom: 26px;
+}
+
+.fincal-platforms {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 24px 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.fincal-platform {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #cbd5e5;
+  border-radius: 12px;
+  padding: 10px;
+  min-width: 0;
+  background: #ffffff;
+  min-height: 68px;
+}
+
+.fincal a.fincal-platform--available {
+  background: var(--fc-ink);
+  color: #ffffff;
+  border-color: var(--fc-ink);
+  box-shadow: 0 4px 12px #15284a18;
+  transition: background 160ms ease, box-shadow 160ms ease;
+}
+
+.fincal a.fincal-platform--available:hover {
+  background: #22406f;
+  color: #ffffff;
+  box-shadow: 0 6px 16px #15284a26;
+}
+
+.fincal-platform--available small {
+  color: #d9e3f5;
+}
+
+.fincal-platform .fincal-store-arrow {
+  display: none;
+}
+
+.fincal-platform > svg {
+  width: 22px;
+  flex-shrink: 0;
+}
+
+.fincal-platform .fincal-store-icon {
+  display: block;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.fincal-platform span {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.fincal-platform strong {
+  font-size: 0.85rem;
+}
+
+.fincal-platform small {
+  font-size: 0.65rem;
+  font-weight: 400;
+  color: var(--fc-muted);
+}
+
+.fincal-platform--soon small:first-child {
+  color: var(--fc-green);
+}
+
+.fincal-text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.86rem !important;
+}
+
+.fincal-intro-art {
+  position: relative;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 0 32px;
+}
+
+.fincal-phone {
+  width: min(270px, 73%);
+  height: auto;
+  position: relative;
+  border: 7px solid #1b2a44;
+  border-radius: 38px;
+  box-shadow: 16px 30px 50px #15284a26;
+  transform: rotate(5deg);
+}
+
+.fincal-orbit {
+  position: absolute;
+  width: 440px;
+  max-width: 115%;
+  aspect-ratio: 1;
+  top: 17%;
+  border: 1px solid #bccbe4;
+  border-radius: 50%;
+  background: #d9e4f877;
+}
+
+.fincal-art-label {
+  position: relative;
+  align-self: flex-end;
+  font-size: 0.8rem;
+  margin-bottom: 24px;
+  color: var(--fc-muted);
+}
+
+.fincal-floating-note {
+  position: absolute;
+  left: -20px;
+  bottom: 110px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 22px;
+  background: #ffffff;
+  border: 1px solid #d6deec;
+  box-shadow: 0 14px 30px #15284a15;
+  border-radius: 14px;
+  transform: rotate(-4deg);
+}
+
+.fincal-floating-note svg {
+  color: var(--fc-green);
+}
+
+.fincal-floating-note span {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.fincal-floating-note strong {
+  font-size: 0.9rem;
+}
+
+.fincal-floating-note small,
+.fincal-art-caption {
+  font-size: 0.72rem;
+  color: var(--fc-muted);
+}
+
+.fincal-art-caption {
+  position: relative;
+  margin-top: 30px;
+}
+
+.fincal-promise-strip {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px 48px;
+  padding: 22px;
+  background: #e9eff9;
+  border-block: 1px solid #d3dcec;
+  font-size: 0.83rem;
+  font-weight: 600;
+}
+
+.fincal-promise-strip span {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.fincal-section {
+  padding: 80px clamp(24px, 5vw, 76px);
+  scroll-margin-top: 24px;
+}
+
+.fincal-section-heading {
+  max-width: 640px;
+  margin-bottom: 42px;
+}
+
+.fincal-section-heading > p:last-child {
+  color: var(--fc-muted);
+}
+
+.fincal-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.fincal-steps article {
+  padding-top: 24px;
+  border-top: 1px solid #bac7dc;
+}
+
+.fincal-step-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--fc-green);
+  margin-bottom: 24px;
+}
+
+.fincal-step-top span,
+.fincal-feature-number {
+  font-size: 0.67rem;
+  font-weight: 650;
+  letter-spacing: 0.1em;
+}
+
+.fincal-steps h3 {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+.fincal-steps p {
+  color: var(--fc-muted);
+  font-size: 0.9rem;
+}
+
+.fincal-methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fincal-methods span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #e9eff9;
+  padding: 8px 10px;
+  border-radius: 7px;
+  font-size: 0.73rem;
+}
+
+.fincal-steps .fincal-step-note {
+  color: var(--fc-green);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.fincal-preview {
+  background: #e9eff9;
+}
+
+.fincal-preview-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.fincal-preview-heading > p {
+  font-size: 0.9rem;
+  color: var(--fc-muted);
+}
+
+.fincal-device-buttons,
+.fincal-screen-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fincal-device-buttons button,
+.fincal-screen-buttons button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font: inherit;
+  font-size: 0.82rem;
+  border: 1px solid #c8d3e6;
+  border-radius: 30px;
+  background: transparent;
+  color: var(--fc-ink);
+  padding: 11px 19px;
+  cursor: pointer;
+}
+
+.fincal-device-buttons button[aria-pressed="true"],
+.fincal-screen-buttons button[aria-pressed="true"] {
+  color: #ffffff;
+  background: var(--fc-ink);
+  border-color: var(--fc-ink);
+}
+
+.fincal-device-buttons button:hover,
+.fincal-screen-buttons button:hover {
+  border-color: var(--fc-green);
+}
+
+.fincal-screen-stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 620px;
+  margin: 28px 0;
+  padding: 22px;
+  border-radius: 24px;
+  background: radial-gradient(ellipse at center, #f6f9fe, #d3deef);
+  border: 1px solid #cfdaec;
+}
+
+.fincal-screen-stage img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 18px 40px #15284a28;
+}
+
+.fincal-screen-stage--ios img,
+.fincal-screen-stage--android img {
+  border: 5px solid #1b2a44;
+  border-radius: 26px;
+}
+
+/* Hide the thin native capture edge without editing the original screenshots. */
+.fincal-screen-stage--windows img {
+  clip-path: inset(2px round 14px);
+}
+
+.fincal-screen-caption,
+.fincal-demo-note {
+  text-align: center;
+  margin: 20px 0 0;
+  font-size: 0.9rem;
+}
+
+.fincal .fincal-demo-note {
+  color: var(--fc-muted);
+  font-size: 0.72rem;
+  margin-top: 8px;
+}
+
+.fincal-feature-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.fincal-feature-grid article {
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.fincal-feature-number {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.fincal .fincal-calendar-card {
+  grid-row: span 2;
+  padding: 42px 40px 0;
+  background: #e9eff9;
+}
+
+.fincal-feature-grid p {
+  font-size: 0.9rem;
+  color: var(--fc-muted);
+}
+
+.fincal-calendar-card img {
+  display: block;
+  width: min(290px, 100%);
+  height: auto;
+  margin: 32px auto -125px;
+  border: 6px solid #1b2a44;
+  border-radius: 30px;
+  transform: rotate(-5deg);
+}
+
+.fincal-control-card {
+  padding: 40px;
+  background: #e6f3ec;
+}
+
+.fincal-control-card > svg {
+  display: block;
+  color: var(--fc-green);
+  margin-bottom: 24px;
+}
+
+.fincal-control-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.fincal-control-card li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 12px 0;
+  font-size: 0.85rem;
+}
+
+.fincal-control-card .fincal-fine-print {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
+.fincal-dark-card {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  align-items: center;
+  padding: 32px 32px 0;
+  gap: 18px;
+  background: #15284a;
+  color: #f6f8fc;
+}
+
+.fincal-dark-card h3 {
+  font-size: 1.65rem;
+}
+
+.fincal-dark-card p {
+  color: #c4d0e4;
+}
+
+.fincal-dark-card img {
+  width: 100%;
+  height: auto;
+  border: 4px solid #6c7c96;
+  border-radius: 18px;
+  transform: rotate(7deg) translateY(30px);
+}
+
+.fincal .fincal-faq {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 64px;
+  border-top: 1px solid var(--fc-line);
+}
+
+.fincal-questions details {
+  border-bottom: 1px solid var(--fc-line);
+  padding: 22px 0;
+}
+
+.fincal-questions details:first-child {
+  padding-top: 0;
+}
+
+.fincal-questions summary {
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fincal-questions p {
+  font-size: 0.88rem;
+  color: var(--fc-muted);
+  margin: 18px 0 0;
+}
+
+.fincal-download {
+  text-align: center;
+  padding: 68px 24px;
+  background: #dde7f7;
+}
+
+.fincal-download > img {
+  margin-bottom: 22px;
+}
+
+.fincal-download .fincal-eyebrow,
+.fincal-download .fincal-platforms {
+  justify-content: center;
+}
+
+.fincal-download > p:not(.fincal-eyebrow) {
+  color: var(--fc-muted);
+}
+
+.fincal-download .fincal-platform {
+  text-align: left;
+}
+
+.fincal-download .fincal-platforms {
+  margin-inline: auto;
+}
+
+@media (max-width: 480px) {
+  .fincal-platforms {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fincal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 28px clamp(24px, 5vw, 76px);
+  border-top: 1px solid var(--fc-line);
+}
+
+.fincal-footer > span {
+  font-weight: 700;
+}
+
+.fincal-footer small {
+  display: block;
+  font-weight: 400;
+  font-size: 0.68rem;
+  color: var(--fc-muted);
+  margin-top: 6px;
+}
+
+.fincal-footer nav {
+  flex-wrap: wrap;
+  font-size: 0.75rem;
+  gap: 18px;
+}
+
+.fincal-trailer video {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+  .fincal-nav nav > a:not(.fincal-nav-cta) {
+    display: none;
+  }
+
+  .fincal-floating-note {
+    left: -10px;
+    padding: 14px;
+  }
+
+  .fincal-screen-stage {
+    height: 530px;
+  }
+
+  .fincal-preview-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .fincal-dark-card {
+    grid-template-columns: 1fr;
+  }
+
+  .fincal-dark-card img {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .fincal .fincal-intro {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    gap: 28px;
+  }
+
+  .fincal h1 {
+    font-size: clamp(3rem, 11vw, 4rem);
+  }
+
+  .fincal-nav {
+    padding: 18px;
+    gap: 12px;
+  }
+
+  .fincal-brand {
+    font-size: 1rem !important;
+  }
+
+  .fincal-brand-copy small {
+    font-size: 0.58rem;
+  }
+
+  .fincal-brand img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .fincal-nav-cta {
+    padding: 10px 12px;
+    font-size: 0.75rem !important;
+  }
+
+  .fincal-intro-art {
+    padding-top: 0;
+  }
+
+  .fincal-phone {
+    width: 230px;
+  }
+
+  .fincal-floating-note {
+    left: 0;
+    bottom: 100px;
+  }
+
+  .fincal-art-label {
+    align-self: center;
+  }
+
+  .fincal-promise-strip {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 24px;
+  }
+
+  .fincal-section {
+    padding-block: 48px;
+  }
+
+  .fincal-steps,
+  .fincal-feature-grid,
+  .fincal .fincal-faq {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .fincal .fincal-calendar-card {
+    grid-row: auto;
+  }
+
+  .fincal-screen-stage {
+    height: 490px;
+    margin-block: 20px;
+    padding: 12px;
+    border-radius: 16px;
+  }
+
+  .fincal-screen-stage--windows {
+    height: auto;
+    min-height: 190px;
+  }
+
+  .fincal-screen-stage--windows img {
+    width: 100%;
+    border-radius: 6px;
+    clip-path: inset(2px round 6px);
+  }
+
+  .fincal-screen-buttons button,
+  .fincal-device-buttons button {
+    font-size: 0.75rem;
+    padding: 10px 12px;
+  }
+
+  .fincal-control-card,
+  .fincal .fincal-calendar-card,
+  .fincal-dark-card {
+    padding: 28px;
+  }
+
+  .fincal-calendar-card img {
+    margin-bottom: -170px;
+  }
+
+  .fincal-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+/* Financial Calendar additions. */
+.fincal-green {
+  color: #1f8a55;
+}
+
+.fincal-price {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 18px 0 8px;
+}
+
+.fincal-price strong {
+  font-size: 2.6rem;
+  letter-spacing: -0.04em;
+}
+
+.fincal-price span {
+  color: #c4d0e4;
+  font-size: 0.85rem;
+}
+
+.fincal-control-card .fincal-green-icon {
+  color: #1f8a55;
+}
+
+.fincal-screen-stage--android img {
+  border: 5px solid #1b2a44;
+  border-radius: 26px;
+}
+
+.fincal-coin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #5be09a, #178350);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+/* The pricing card shows the app icon rather than a screenshot. */
+.fincal .fincal-dark-card img {
+  width: min(170px, 100%);
+  justify-self: center;
+  border: none;
+  border-radius: 22%;
+  box-shadow: 0 18px 40px #0000004d;
+  transform: rotate(7deg) translateY(-6px);
+}
+
+.fincal-dark-card .fincal-feature-number {
+  color: #9fc0ff;
+}
+
+.fincal-dark-card .fincal-price span {
+  color: #c4d0e4;
+}

@@ -11,6 +11,9 @@ import Team from "./components/team";
 import Contact from "./components/contact";
 import JefferyBunnPortfolio from "./components/portfolio/jeffery_bunn";
 import FCPP from "./components/apps/financial_calendar/privacy_policy";
+import FCRequestAccountDeletion from "./components/apps/financial_calendar/request_account_deletion";
+import FinancialCalendar from "./components/apps/financial_calendar/financial_calendar";
+import FCTerms from "./components/apps/financial_calendar/terms";
 import { storyblokInit, apiPlugin, StoryblokComponent, getStoryblokApi } from "@storyblok/react";
 import Page from "./storyblok/page";
 import Teaser from "./storyblok/teaser";
@@ -85,7 +88,10 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/portfolio/jeffery_bunn" element={<JefferyBunnPortfolio />} />
             <Route path="/portfolio/joshua_nelson" element={<JoshuaNelsonPortfolio />} />
+            <Route path="/apps/financial_calendar" element={<FinancialCalendar />} />
             <Route path="/apps/financial_calendar/privacy_policy" element={<FCPP />} />
+            <Route path="/apps/financial_calendar/terms" element={<FCTerms />} />
+            <Route path="/apps/financial_calendar/request_account_deletion" element={<FCRequestAccountDeletion />} />
             <Route path="/apps/bitescribe" element={<BiteScribe />} />
             <Route path="/apps/bitescribe/privacy_policy" element={<BiteScribe_PrivacyPolicy />} />
             <Route path="/apps/bitescribe/terms" element={<BiteScribe_Terms />} />

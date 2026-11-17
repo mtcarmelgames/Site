@@ -105,7 +105,7 @@
   flex-wrap: wrap;
   gap: 8px;
   list-style: none;
-  margin: 0;
+  margin: 0 0 28px;
   padding: 0;
 }
 
@@ -119,8 +119,9 @@
   font-size: 0.76rem;
 }
 
+/* When shown, the availability line sits between the platforms and the button. */
 .product-availability {
-  margin: 12px 0 20px;
+  margin: -20px 0 26px;
   color: var(--apps-muted);
   font-size: 0.68rem;
   font-weight: 650;
@@ -259,6 +260,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 40px;
   width: 40px;
   height: 40px;
   padding: 0;
@@ -269,7 +271,9 @@
   cursor: pointer;
 }
 
+/* The counter wraps or shrinks instead of squeezing the round buttons. */
 .product-navigation p {
+  min-width: 0;
   margin: 0;
   color: var(--apps-muted);
   font-size: 0.8rem;
@@ -280,6 +284,7 @@
 }
 
 .product-dots button {
+  flex-basis: 32px;
   border: 0;
   width: 32px;
 }
@@ -371,8 +376,10 @@
     aspect-ratio: 3 / 2;
   }
 
+  /* Fills the 3:2 frame; a wider photo loses a little at the sides instead of showing bands. */
   .product-showcase {
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center;
   }
 
   .product-laptop {
