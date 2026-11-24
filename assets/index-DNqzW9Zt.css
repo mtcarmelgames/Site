@@ -10,3 +10,9 @@
 @media (min-width: 761px) {
   .div .project-card { min-height: 432px; }
 }
+
+.div .project-card:has(> img[src$="/bitescribe/landing/product-showcase.png"]) > img { object-fit: cover; min-height: 0; }
+@media (min-width: 761px) {
+  .div .project-card { min-height: 0; }
+  .div .project-card-copy { padding-block: clamp(18px, 2vw, 28px); }
+}
